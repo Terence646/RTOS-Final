@@ -47,10 +47,6 @@ bool      game_loss     = false;
 bool      platform_boost = false;
 int       active_ball = 0;
 
-bool      BOOST_TEST     = false;
-bool      CAP_SENSE_TEST = false;
-bool      LAZER_TEST     = false;
-
 OS_TMR       PERIODIC_TMR;
 
 OS_Q         App_MessageQ;
@@ -88,7 +84,7 @@ void GPIO_Unified_IRQ(void)
   /* Act on interrupts */
   //Checks for interrupt on the push buttons
 
-    if ((interruptMask & (1 << BSP_GPIO_PB1_PIN)) && !(interruptMask & (1 << BSP_GPIO_PB0_PIN))){
+  if ((interruptMask & (1 << BSP_GPIO_PB1_PIN)) && !(interruptMask & (1 << BSP_GPIO_PB0_PIN))){
     // Shield Task
   }
   if ((interruptMask & (1 << BSP_GPIO_PB0_PIN)) && !(interruptMask & (1 << BSP_GPIO_PB1_PIN))) {
@@ -211,7 +207,6 @@ static void LCD_task(void *arg){
       sprintf(plat_speed, "%d", abs(platform.x_velocity));
 
       //Map Drawings
-      if(platform_boost) GLIB_drawString(&glibContext, "BOOST", 5, 85,60,1);
       GLIB_drawString(&glibContext, "Plat:", 5, 5,120,1);
       GLIB_drawString(&glibContext, plat_speed, 16, 35,120,1);
       GLIB_drawLine(&glibContext, 2,0, 2, 128);
@@ -245,8 +240,6 @@ static void Platform_Physics_Task(){
     left_sense_soft  = CAPSENSE_getPressed(CSEN1_pin);
     right_sense_soft = CAPSENSE_getPressed(CSEN2_pin);
     right_sense_hard = CAPSENSE_getPressed(CSEN3_pin);
-
-    if(left_sense_hard || right_sense_soft) CAP_SENSE_TEST = true;
 
     if(left_sense_hard) platform.x_velocity = (platform.x_velocity - 1) % 20;
     if(left_sense_soft) platform.x_velocity = (platform.x_velocity - 1) % 20;
