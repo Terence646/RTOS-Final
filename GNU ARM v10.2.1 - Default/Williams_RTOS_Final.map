@@ -9110,21 +9110,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .data          0x0000000000000000        0x0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .bss           0x0000000000000000        0x0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .text.GLIB_drawCircle
-                0x0000000000000000       0x26 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .text.GLIB_drawPartialCircle
-                0x0000000000000000       0xd4 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .text.GLIB_drawCircleFilled
                 0x0000000000000000      0x16e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .text.GLIB_drawPartialCirclePoints
-                0x0000000000000000       0xde ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_info    0x0000000000000000      0x589 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_abbrev  0x0000000000000000      0x183 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_loc     0x0000000000000000       0xe1 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_aranges
-                0x0000000000000000       0x38 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_ranges  0x0000000000000000       0x28 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_macro   0x0000000000000000      0x15d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .debug_macro   0x0000000000000000      0xa72 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .debug_macro   0x0000000000000000       0x10 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .debug_macro   0x0000000000000000       0x22 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
@@ -9152,12 +9139,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x3b3 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .debug_macro   0x0000000000000000       0x82 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .debug_macro   0x0000000000000000       0x51 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_line    0x0000000000000000      0x6de ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_str     0x0000000000000000     0x7dd6 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .comment       0x0000000000000000       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .debug_frame   0x0000000000000000       0x80 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
- .ARM.attributes
-                0x0000000000000000       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .group         0x0000000000000000        0xc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
  .group         0x0000000000000000        0xc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
  .group         0x0000000000000000        0xc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
@@ -9432,15 +9413,6 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .text.GLIB_drawPolygon
                 0x0000000000000000       0xec ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .text.GLIB_drawPolygonFilled
-                0x0000000000000000      0x226 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_info    0x0000000000000000      0x527 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_abbrev  0x0000000000000000      0x158 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_loc     0x0000000000000000       0x72 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_aranges
-                0x0000000000000000       0x28 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_ranges  0x0000000000000000       0x18 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_macro   0x0000000000000000      0x15d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .debug_macro   0x0000000000000000      0xa72 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .debug_macro   0x0000000000000000       0x10 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .debug_macro   0x0000000000000000       0x22 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
@@ -9468,12 +9440,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x3b3 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .debug_macro   0x0000000000000000       0x82 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .debug_macro   0x0000000000000000       0x51 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_line    0x0000000000000000      0x6f8 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_str     0x0000000000000000     0x7e29 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .comment       0x0000000000000000       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .debug_frame   0x0000000000000000       0x4c ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
- .ARM.attributes
-                0x0000000000000000       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .group         0x0000000000000000        0xc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
  .group         0x0000000000000000        0xc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
  .group         0x0000000000000000        0xc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
@@ -11095,19 +11061,20 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./src/Source_Files/blink.o
  .data          0x0000000000000000        0x0 ./src/Source_Files/blink.o
  .bss           0x0000000000000000        0x0 ./src/Source_Files/blink.o
- .bss.BALL_TCB  0x0000000000000000       0xec ./src/Source_Files/blink.o
- .bss.BOOST_TCB
-                0x0000000000000000       0xec ./src/Source_Files/blink.o
- .bss.BALL_stack
-                0x0000000000000000      0x800 ./src/Source_Files/blink.o
- .bss.BOOST_stack
-                0x0000000000000000      0x800 ./src/Source_Files/blink.o
- .bss.active_ball
+ .bss.castle    0x0000000000000000       0x10 ./src/Source_Files/blink.o
+ .bss.caslteHealth
+                0x0000000000000000       0x10 ./src/Source_Files/blink.o
+ .bss.player    0x0000000000000000       0x10 ./src/Source_Files/blink.o
+ .bss.playerHealth
+                0x0000000000000000       0x10 ./src/Source_Files/blink.o
+ .bss.energy    0x0000000000000000       0x10 ./src/Source_Files/blink.o
+ .bss.energyTotal
+                0x0000000000000000       0x10 ./src/Source_Files/blink.o
+ .bss.fireRailgun
+                0x0000000000000000        0x1 ./src/Source_Files/blink.o
+ .bss.shield    0x0000000000000000        0x1 ./src/Source_Files/blink.o
+ .bss.active_Satchel
                 0x0000000000000000        0x4 ./src/Source_Files/blink.o
- .bss.BOOST_TEST
-                0x0000000000000000        0x1 ./src/Source_Files/blink.o
- .bss.LAZER_TEST
-                0x0000000000000000        0x1 ./src/Source_Files/blink.o
  .bss.PERIODIC_TMR
                 0x0000000000000000       0x30 ./src/Source_Files/blink.o
  .bss.App_MessageQ
@@ -11235,7 +11202,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x51 ./src/Source_Files/blink.o
  .debug_macro   0x0000000000000000       0x16 ./src/Source_Files/blink.o
  .debug_macro   0x0000000000000000       0x40 ./src/Source_Files/blink.o
- .debug_macro   0x0000000000000000       0xa6 ./src/Source_Files/blink.o
+ .debug_macro   0x0000000000000000       0xa0 ./src/Source_Files/blink.o
  .group         0x0000000000000000        0xc ./src/Source_Files/bsp_os.o
  .group         0x0000000000000000        0xc ./src/Source_Files/bsp_os.o
  .group         0x0000000000000000        0xc ./src/Source_Files/bsp_os.o
@@ -12764,7 +12731,7 @@ END GROUP
 LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtend.o
 LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtn.o
 
-.text           0x0000000000000000     0xce94
+.text           0x0000000000000000     0xd4bc
                 0x0000000000000000                linker_vectors_begin = .
  *(.vectors)
  .vectors       0x0000000000000000      0x10c ./gecko_sdk_3.2.2/platform/Device/SiliconLabs/EFM32PG12B/Source/GCC/startup_efm32pg12b.o
@@ -12847,6 +12814,7 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
                 0x0000000000000870                LEUART0_IRQHandler
                 0x0000000000000870                FPUEH_IRQHandler
                 0x0000000000000870                WTIMER1_IRQHandler
+                0x0000000000000870                GPIO_EVEN_IRQHandler
                 0x0000000000000870                VDAC0_IRQHandler
                 0x0000000000000870                LDMA_IRQHandler
                 0x0000000000000870                CSEN_IRQHandler
@@ -12870,6 +12838,7 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
                 0x0000000000000870                USART3_RX_IRQHandler
                 0x0000000000000870                CMU_IRQHandler
                 0x0000000000000870                LESENSE_IRQHandler
+                0x0000000000000870                GPIO_ODD_IRQHandler
                 0x0000000000000870                USART3_TX_IRQHandler
                 0x0000000000000870                BusFault_Handler
                 0x0000000000000870                USART2_TX_IRQHandler
@@ -13420,304 +13389,312 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
  .text.GLIB_drawPixelColor
                 0x00000000000081c0       0x6e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
                 0x00000000000081c0                GLIB_drawPixelColor
+ .text.GLIB_drawCircle
+                0x000000000000822e       0x26 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+                0x000000000000822e                GLIB_drawCircle
+ .text.GLIB_drawPartialCircle
+                0x0000000000008254       0xd4 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+                0x0000000000008254                GLIB_drawPartialCircle
+ .text.GLIB_drawPartialCirclePoints
+                0x0000000000008328       0xde ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .text.GLIB_drawLineH
-                0x000000000000822e       0xf0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
-                0x000000000000822e                GLIB_drawLineH
+                0x0000000000008406       0xf0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+                0x0000000000008406                GLIB_drawLineH
  .text.GLIB_drawLineV
-                0x000000000000831e       0xf0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
-                0x000000000000831e                GLIB_drawLineV
+                0x00000000000084f6       0xf0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+                0x00000000000084f6                GLIB_drawLineV
  .text.GLIB_getClipCode
-                0x000000000000840e       0x70 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+                0x00000000000085e6       0x70 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
  .text.GLIB_clipLine
-                0x000000000000847e      0x1d4 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+                0x0000000000008656      0x1d4 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
  .text.GLIB_drawLine
-                0x0000000000008652      0x188 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
-                0x0000000000008652                GLIB_drawLine
+                0x000000000000882a      0x188 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+                0x000000000000882a                GLIB_drawLine
+ .text.GLIB_drawPolygonFilled
+                0x00000000000089b2      0x226 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+                0x00000000000089b2                GLIB_drawPolygonFilled
  .text.GLIB_rectContainsPoint
-                0x00000000000087da       0x42 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
-                0x00000000000087da                GLIB_rectContainsPoint
+                0x0000000000008bd8       0x42 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+                0x0000000000008bd8                GLIB_rectContainsPoint
  .text.GLIB_normalizeRect
-                0x000000000000881c       0x4a ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
-                0x000000000000881c                GLIB_normalizeRect
+                0x0000000000008c1a       0x4a ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+                0x0000000000008c1a                GLIB_normalizeRect
  .text.GLIB_drawRectFilled
-                0x0000000000008866       0xe0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
-                0x0000000000008866                GLIB_drawRectFilled
+                0x0000000000008c64       0xe0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+                0x0000000000008c64                GLIB_drawRectFilled
  .text.GLIB_drawChar
-                0x0000000000008946      0x216 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
-                0x0000000000008946                GLIB_drawChar
+                0x0000000000008d44      0x216 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+                0x0000000000008d44                GLIB_drawChar
  .text.GLIB_drawString
-                0x0000000000008b5c       0xcc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
-                0x0000000000008b5c                GLIB_drawString
+                0x0000000000008f5a       0xcc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+                0x0000000000008f5a                GLIB_drawString
  .text.GLIB_setFont
-                0x0000000000008c28       0x42 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
-                0x0000000000008c28                GLIB_setFont
- *fill*         0x0000000000008c6a        0x2 
+                0x0000000000009026       0x42 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+                0x0000000000009026                GLIB_setFont
  .text.sl_sleeptimer_init
-                0x0000000000008c6c       0xa0 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008c6c                sl_sleeptimer_init
+                0x0000000000009068       0xa0 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009068                sl_sleeptimer_init
  .text.sl_sleeptimer_start_timer
-                0x0000000000008d0c       0x5a ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008d0c                sl_sleeptimer_start_timer
+                0x0000000000009108       0x5a ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009108                sl_sleeptimer_start_timer
  .text.sl_sleeptimer_restart_periodic_timer
-                0x0000000000008d66       0x42 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008d66                sl_sleeptimer_restart_periodic_timer
+                0x0000000000009162       0x42 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009162                sl_sleeptimer_restart_periodic_timer
  .text.sl_sleeptimer_stop_timer
-                0x0000000000008da8       0x80 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008da8                sl_sleeptimer_stop_timer
+                0x00000000000091a4       0x80 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x00000000000091a4                sl_sleeptimer_stop_timer
  .text.sl_sleeptimer_is_timer_running
-                0x0000000000008e28       0x6c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008e28                sl_sleeptimer_is_timer_running
+                0x0000000000009224       0x6c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009224                sl_sleeptimer_is_timer_running
  .text.sl_sleeptimer_get_timer_time_remaining
-                0x0000000000008e94       0xb0 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008e94                sl_sleeptimer_get_timer_time_remaining
+                0x0000000000009290       0xb0 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009290                sl_sleeptimer_get_timer_time_remaining
  .text.sl_sleeptimer_get_tick_count
-                0x0000000000008f44       0x20 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008f44                sl_sleeptimer_get_tick_count
+                0x0000000000009340       0x20 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009340                sl_sleeptimer_get_tick_count
  .text.sl_sleeptimer_get_timer_frequency
-                0x0000000000008f64        0xc ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008f64                sl_sleeptimer_get_timer_frequency
+                0x0000000000009360        0xc ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009360                sl_sleeptimer_get_timer_frequency
  .text.process_timer_irq
-                0x0000000000008f70      0x1ac ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
-                0x0000000000008f70                process_timer_irq
+                0x000000000000936c      0x1ac ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x000000000000936c                process_timer_irq
  .text.delta_list_insert_timer
-                0x000000000000911c       0xb0 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009518       0xb0 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
  .text.delta_list_remove_timer
-                0x00000000000091cc       0x74 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x00000000000095c8       0x74 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
  .text.set_comparator_for_next_timer
-                0x0000000000009240       0x34 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x000000000000963c       0x34 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
  .text.update_first_timer_delta
-                0x0000000000009274       0x70 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x0000000000009670       0x70 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
  .text.create_timer
-                0x00000000000092e4       0x9c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x00000000000096e0       0x9c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
  .text.update_next_timer_to_expire_is_power_manager
-                0x0000000000009380       0x58 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x000000000000977c       0x58 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
  .text.__NVIC_EnableIRQ
-                0x00000000000093d8       0x34 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x00000000000097d4       0x34 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.__NVIC_ClearPendingIRQ
-                0x000000000000940c       0x38 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009808       0x38 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_ChannelCompareValueGet
-                0x0000000000009444       0x34 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009840       0x34 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_ChannelCompareValueSet
-                0x0000000000009478       0x38 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009874       0x38 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_ChannelCCVGet
-                0x00000000000094b0       0x16 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x00000000000098ac       0x16 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_ChannelCCVSet
-                0x00000000000094c6       0x18 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- *fill*         0x00000000000094de        0x2 
+                0x00000000000098c2       0x18 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ *fill*         0x00000000000098da        0x2 
  .text.RTCC_CounterGet
-                0x00000000000094e0        0xc ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x00000000000098dc        0xc ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_CounterSet
-                0x00000000000094ec       0x14 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x00000000000098e8       0x14 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_IntClear
-                0x0000000000009500       0x14 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x00000000000098fc       0x14 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_IntDisable
-                0x0000000000009514       0x1c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009910       0x1c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_IntEnable
-                0x0000000000009530       0x1c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x000000000000992c       0x1c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.RTCC_IntGet
-                0x000000000000954c        0xc ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009948        0xc ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.SL_Log2ToDiv
-                0x0000000000009558       0x2c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009954       0x2c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.CMU_PrescToLog2
-                0x0000000000009584       0x50 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009980       0x50 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .text.sleeptimer_hal_init_timer
-                0x00000000000095d4       0x94 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                0x00000000000095d4                sleeptimer_hal_init_timer
+                0x00000000000099d0       0x94 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x00000000000099d0                sleeptimer_hal_init_timer
  .text.sleeptimer_hal_get_counter
-                0x0000000000009668        0xc ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                0x0000000000009668                sleeptimer_hal_get_counter
+                0x0000000000009a64        0xc ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009a64                sleeptimer_hal_get_counter
  .text.sleeptimer_hal_get_compare
-                0x0000000000009674        0xe ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                0x0000000000009674                sleeptimer_hal_get_compare
- *fill*         0x0000000000009682        0x2 
+                0x0000000000009a70        0xe ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009a70                sleeptimer_hal_get_compare
+ *fill*         0x0000000000009a7e        0x2 
  .text.sleeptimer_hal_set_compare
-                0x0000000000009684       0x9c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                0x0000000000009684                sleeptimer_hal_set_compare
+                0x0000000000009a80       0x9c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009a80                sleeptimer_hal_set_compare
  .text.sleeptimer_hal_enable_int
-                0x0000000000009720       0x44 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                0x0000000000009720                sleeptimer_hal_enable_int
+                0x0000000000009b1c       0x44 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009b1c                sleeptimer_hal_enable_int
  .text.sleeptimer_hal_disable_int
-                0x0000000000009764       0x60 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                0x0000000000009764                sleeptimer_hal_disable_int
+                0x0000000000009b60       0x60 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009b60                sleeptimer_hal_disable_int
  .text.RTCC_IRQHandler
-                0x00000000000097c4       0x66 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                0x00000000000097c4                RTCC_IRQHandler
- *fill*         0x000000000000982a        0x2 
+                0x0000000000009bc0       0x66 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009bc0                RTCC_IRQHandler
+ *fill*         0x0000000000009c26        0x2 
  .text.sleeptimer_hal_get_timer_frequency
-                0x000000000000982c       0x20 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
-                0x000000000000982c                sleeptimer_hal_get_timer_frequency
+                0x0000000000009c28       0x20 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000009c28                sleeptimer_hal_get_timer_frequency
  .text.get_time_diff
-                0x000000000000984c       0x12 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- *fill*         0x000000000000985e        0x2 
+                0x0000000000009c48       0x12 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ *fill*         0x0000000000009c5a        0x2 
  .text.sl_udelay_wait
-                0x0000000000009860       0x54 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
-                0x0000000000009860                sl_udelay_wait
- *fill*         0x00000000000098b4        0xc 
- .text          0x00000000000098c0        0x8 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
-                0x00000000000098c0                sli_delay_loop
+                0x0000000000009c5c       0x54 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+                0x0000000000009c5c                sl_udelay_wait
+ .text          0x0000000000009cb0        0x8 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
+                0x0000000000009cb0                sli_delay_loop
  .text.app_init
-                0x00000000000098c8       0x16 ./src/Source_Files/app.o
-                0x00000000000098c8                app_init
- *fill*         0x00000000000098de        0x2 
- .text.GPIO_IntClear
-                0x00000000000098e0       0x18 ./src/Source_Files/blink.o
- .text.GPIO_IntGet
-                0x00000000000098f8       0x10 ./src/Source_Files/blink.o
- .text.GPIO_PinOutToggle
-                0x0000000000009908       0xe0 ./src/Source_Files/blink.o
- .text.GPIO_Unified_IRQ
-                0x00000000000099e8       0x28 ./src/Source_Files/blink.o
-                0x00000000000099e8                GPIO_Unified_IRQ
- .text.GPIO_EVEN_IRQHandler
-                0x0000000000009a10        0xa ./src/Source_Files/blink.o
-                0x0000000000009a10                GPIO_EVEN_IRQHandler
- .text.GPIO_ODD_IRQHandler
-                0x0000000000009a1a        0xa ./src/Source_Files/blink.o
-                0x0000000000009a1a                GPIO_ODD_IRQHandler
+                0x0000000000009cb8       0x1a ./src/Source_Files/app.o
+                0x0000000000009cb8                app_init
+ .text.BUS_RegBitRead
+                0x0000000000009cd2       0x24 ./src/Source_Files/blink.o
+ *fill*         0x0000000000009cf6        0x2 
+ .text.GPIO_PinInGet
+                0x0000000000009cf8       0xe0 ./src/Source_Files/blink.o
+ .text.Button_InputTask
+                0x0000000000009dd8       0x1c ./src/Source_Files/blink.o
+ .text.read_button0
+                0x0000000000009df4       0x24 ./src/Source_Files/blink.o
+                0x0000000000009df4                read_button0
+ .text.read_button1
+                0x0000000000009e18       0x24 ./src/Source_Files/blink.o
+                0x0000000000009e18                read_button1
+ .text.loadingScreen
+                0x0000000000009e3c       0xdc ./src/Source_Files/blink.o
+                0x0000000000009e3c                loadingScreen
  .text.LCD_init
-                0x0000000000009a24       0xc8 ./src/Source_Files/blink.o
-                0x0000000000009a24                LCD_init
+                0x0000000000009f18       0xc8 ./src/Source_Files/blink.o
+                0x0000000000009f18                LCD_init
  .text.game_init
-                0x0000000000009aec       0xf8 ./src/Source_Files/blink.o
-                0x0000000000009aec                game_init
+                0x0000000000009fe0      0x138 ./src/Source_Files/blink.o
+                0x0000000000009fe0                game_init
  .text.LCD_task
-                0x0000000000009be4      0x110 ./src/Source_Files/blink.o
- *fill*         0x0000000000009cf4        0x4 
+                0x000000000000a118      0x168 ./src/Source_Files/blink.o
  .text.Platform_Physics_Task
-                0x0000000000009cf8      0x394 ./src/Source_Files/blink.o
+                0x000000000000a280      0x37c ./src/Source_Files/blink.o
  .text.SYSTEM_GetProdRev
-                0x000000000000a08c       0x10 ./src/Source_Files/bsp_os.o
+                0x000000000000a5fc       0x10 ./src/Source_Files/bsp_os.o
  .text.CHIP_Init
-                0x000000000000a09c       0x88 ./src/Source_Files/bsp_os.o
+                0x000000000000a60c       0x88 ./src/Source_Files/bsp_os.o
  .text.BSP_SystemInit
-                0x000000000000a124       0x74 ./src/Source_Files/bsp_os.o
-                0x000000000000a124                BSP_SystemInit
+                0x000000000000a694       0x74 ./src/Source_Files/bsp_os.o
+                0x000000000000a694                BSP_SystemInit
  .text.CAPSENSE_getPressed
-                0x000000000000a198       0x4c ./src/Source_Files/capsense.o
-                0x000000000000a198                CAPSENSE_getPressed
+                0x000000000000a708       0x4c ./src/Source_Files/capsense.o
+                0x000000000000a708                CAPSENSE_getPressed
  .text.CAPSENSE_Measure
-                0x000000000000a1e4       0x98 ./src/Source_Files/capsense.o
+                0x000000000000a754       0x98 ./src/Source_Files/capsense.o
  .text.CAPSENSE_Sense
-                0x000000000000a27c       0x50 ./src/Source_Files/capsense.o
-                0x000000000000a27c                CAPSENSE_Sense
+                0x000000000000a7ec       0x50 ./src/Source_Files/capsense.o
+                0x000000000000a7ec                CAPSENSE_Sense
  .text.CAPSENSE_Init
-                0x000000000000a2cc       0x88 ./src/Source_Files/capsense.o
-                0x000000000000a2cc                CAPSENSE_Init
+                0x000000000000a83c       0x88 ./src/Source_Files/capsense.o
+                0x000000000000a83c                CAPSENSE_Init
  .text.cmu_open
-                0x000000000000a354       0x40 ./src/Source_Files/cmu.o
-                0x000000000000a354                cmu_open
+                0x000000000000a8c4       0x40 ./src/Source_Files/cmu.o
+                0x000000000000a8c4                cmu_open
  .text.gpio_open
-                0x000000000000a394       0x46 ./src/Source_Files/gpio.o
-                0x000000000000a394                gpio_open
- *fill*         0x000000000000a3da        0x2 
+                0x000000000000a904       0x46 ./src/Source_Files/gpio.o
+                0x000000000000a904                gpio_open
+ *fill*         0x000000000000a94a        0x2 
  .text.SYSTEM_GetProdRev
-                0x000000000000a3dc       0x10 ./src/main.o
+                0x000000000000a94c       0x10 ./src/main.o
  .text.CHIP_Init
-                0x000000000000a3ec       0x88 ./src/main.o
- .text.main     0x000000000000a474       0xbc ./src/main.o
-                0x000000000000a474                main
- .text          0x000000000000a530      0x254 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_muldf3.o)
-                0x000000000000a530                __aeabi_dmul
-                0x000000000000a530                __muldf3
- .text          0x000000000000a784      0x378 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_addsubdf3.o)
-                0x000000000000a784                __aeabi_drsub
-                0x000000000000a78c                __subdf3
-                0x000000000000a78c                __aeabi_dsub
-                0x000000000000a790                __aeabi_dadd
-                0x000000000000a790                __adddf3
-                0x000000000000aa08                __aeabi_ui2d
-                0x000000000000aa08                __floatunsidf
-                0x000000000000aa28                __floatsidf
-                0x000000000000aa28                __aeabi_i2d
-                0x000000000000aa4c                __extendsfdf2
-                0x000000000000aa4c                __aeabi_f2d
-                0x000000000000aa90                __aeabi_ul2d
-                0x000000000000aa90                __floatundidf
-                0x000000000000aaa0                __aeabi_l2d
-                0x000000000000aaa0                __floatdidf
- .text          0x000000000000aafc       0x50 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixdfsi.o)
-                0x000000000000aafc                __fixdfsi
-                0x000000000000aafc                __aeabi_d2iz
- .text          0x000000000000ab4c       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixunsdfsi.o)
-                0x000000000000ab4c                __fixunsdfsi
-                0x000000000000ab4c                __aeabi_d2uiz
- .text          0x000000000000ab8c       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_aeabi_uldivmod.o)
-                0x000000000000ab8c                __aeabi_uldivmod
- .text          0x000000000000abbc      0x2d0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
-                0x000000000000abbc                __udivmoddi4
- .text          0x000000000000ae8c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_dvmd_tls.o)
-                0x000000000000ae8c                __aeabi_ldiv0
-                0x000000000000ae8c                __aeabi_idiv0
- .text.abs      0x000000000000ae90        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-abs.o)
-                0x000000000000ae90                abs
- .text.exit     0x000000000000ae98       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-exit.o)
-                0x000000000000ae98                exit
+                0x000000000000a95c       0x88 ./src/main.o
+ .text.main     0x000000000000a9e4       0xbc ./src/main.o
+                0x000000000000a9e4                main
+ .text          0x000000000000aaa0      0x254 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_muldf3.o)
+                0x000000000000aaa0                __aeabi_dmul
+                0x000000000000aaa0                __muldf3
+ .text          0x000000000000acf4      0x378 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_addsubdf3.o)
+                0x000000000000acf4                __aeabi_drsub
+                0x000000000000acfc                __subdf3
+                0x000000000000acfc                __aeabi_dsub
+                0x000000000000ad00                __aeabi_dadd
+                0x000000000000ad00                __adddf3
+                0x000000000000af78                __aeabi_ui2d
+                0x000000000000af78                __floatunsidf
+                0x000000000000af98                __floatsidf
+                0x000000000000af98                __aeabi_i2d
+                0x000000000000afbc                __extendsfdf2
+                0x000000000000afbc                __aeabi_f2d
+                0x000000000000b000                __aeabi_ul2d
+                0x000000000000b000                __floatundidf
+                0x000000000000b010                __aeabi_l2d
+                0x000000000000b010                __floatdidf
+ .text          0x000000000000b06c       0x50 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixdfsi.o)
+                0x000000000000b06c                __fixdfsi
+                0x000000000000b06c                __aeabi_d2iz
+ .text          0x000000000000b0bc       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixunsdfsi.o)
+                0x000000000000b0bc                __fixunsdfsi
+                0x000000000000b0bc                __aeabi_d2uiz
+ .text          0x000000000000b0fc       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_aeabi_uldivmod.o)
+                0x000000000000b0fc                __aeabi_uldivmod
+ .text          0x000000000000b12c      0x2d0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
+                0x000000000000b12c                __udivmoddi4
+ .text          0x000000000000b3fc        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_dvmd_tls.o)
+                0x000000000000b3fc                __aeabi_ldiv0
+                0x000000000000b3fc                __aeabi_idiv0
+ .text.abs      0x000000000000b400        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-abs.o)
+                0x000000000000b400                abs
+ .text.exit     0x000000000000b408       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-exit.o)
+                0x000000000000b408                exit
  .text.__libc_init_array
-                0x000000000000aec0       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-init.o)
-                0x000000000000aec0                __libc_init_array
- .text.memcpy   0x000000000000af08       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
-                0x000000000000af08                memcpy
- .text.memset   0x000000000000af24       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memset.o)
-                0x000000000000af24                memset
- .text._free_r  0x000000000000af34       0x98 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-freer.o)
-                0x000000000000af34                _free_r
+                0x000000000000b430       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-init.o)
+                0x000000000000b430                __libc_init_array
+ .text.memcpy   0x000000000000b478       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x000000000000b478                memcpy
+ .text.memset   0x000000000000b494       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memset.o)
+                0x000000000000b494                memset
+ .text._free_r  0x000000000000b4a4       0x98 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000000b4a4                _free_r
  .text._malloc_r
-                0x000000000000afcc       0xb4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x000000000000afcc                _malloc_r
- .text._sbrk_r  0x000000000000b080       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sbrkr.o)
-                0x000000000000b080                _sbrk_r
- .text.sprintf  0x000000000000b0a0       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sprintf.o)
-                0x000000000000b0a0                sprintf
-                0x000000000000b0a0                siprintf
+                0x000000000000b53c       0xb4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000000000b53c                _malloc_r
+ .text._sbrk_r  0x000000000000b5f0       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sbrkr.o)
+                0x000000000000b5f0                _sbrk_r
+ .text.sprintf  0x000000000000b610       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sprintf.o)
+                0x000000000000b610                sprintf
+                0x000000000000b610                siprintf
  .text.__malloc_lock
-                0x000000000000b0e0        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-mlock.o)
-                0x000000000000b0e0                __malloc_lock
+                0x000000000000b650        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-mlock.o)
+                0x000000000000b650                __malloc_lock
  .text.__malloc_unlock
-                0x000000000000b0ec        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-mlock.o)
-                0x000000000000b0ec                __malloc_unlock
+                0x000000000000b65c        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-mlock.o)
+                0x000000000000b65c                __malloc_unlock
  .text.__ssputs_r
-                0x000000000000b0f8       0xb6 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000000b0f8                __ssputs_r
- *fill*         0x000000000000b1ae        0x2 
+                0x000000000000b668       0xb6 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000000b668                __ssputs_r
+ *fill*         0x000000000000b71e        0x2 
  .text._svfprintf_r
-                0x000000000000b1b0      0x200 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x000000000000b1b0                _svfprintf_r
-                0x000000000000b1b0                _svfiprintf_r
+                0x000000000000b720      0x200 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000000b720                _svfprintf_r
+                0x000000000000b720                _svfiprintf_r
  .text._printf_common
-                0x000000000000b3b0       0xda /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000000b3b0                _printf_common
- *fill*         0x000000000000b48a        0x2 
+                0x000000000000b920       0xda /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000000b920                _printf_common
+ *fill*         0x000000000000b9fa        0x2 
  .text._printf_i
-                0x000000000000b48c      0x24c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000000b48c                _printf_i
+                0x000000000000b9fc      0x24c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000000b9fc                _printf_i
  .text.__retarget_lock_acquire_recursive
-                0x000000000000b6d8        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
-                0x000000000000b6d8                __retarget_lock_acquire_recursive
+                0x000000000000bc48        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
+                0x000000000000bc48                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000000b6da        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
-                0x000000000000b6da                __retarget_lock_release_recursive
- *fill*         0x000000000000b6dc        0x4 
- .text          0x000000000000b6e0       0xa0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memchr.o)
-                0x000000000000b6e0                memchr
- .text.memmove  0x000000000000b780       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memmove.o)
-                0x000000000000b780                memmove
+                0x000000000000bc4a        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
+                0x000000000000bc4a                __retarget_lock_release_recursive
+ *fill*         0x000000000000bc4c        0x4 
+ .text          0x000000000000bc50       0xa0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memchr.o)
+                0x000000000000bc50                memchr
+ .text.memmove  0x000000000000bcf0       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memmove.o)
+                0x000000000000bcf0                memmove
  .text._realloc_r
-                0x000000000000b7b4       0x4c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-reallocr.o)
-                0x000000000000b7b4                _realloc_r
+                0x000000000000bd24       0x4c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-reallocr.o)
+                0x000000000000bd24                _realloc_r
  .text._malloc_usable_size_r
-                0x000000000000b800       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-msizer.o)
-                0x000000000000b800                _malloc_usable_size_r
- .text._exit    0x000000000000b810        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libnosys.a(_exit.o)
-                0x000000000000b810                _exit
-                0x000000000000b814                linker_code_end = .
+                0x000000000000bd70       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-msizer.o)
+                0x000000000000bd70                _malloc_usable_size_r
+ .text._exit    0x000000000000bd80        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libnosys.a(_exit.o)
+                0x000000000000bd80                _exit
+                0x000000000000bd84                linker_code_end = .
  *(.init)
- .init          0x000000000000b814        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crti.o
-                0x000000000000b814                _init
- .init          0x000000000000b818        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtn.o
+ .init          0x000000000000bd84        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crti.o
+                0x000000000000bd84                _init
+ .init          0x000000000000bd88        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtn.o
  *(.fini)
- .fini          0x000000000000b820        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crti.o
-                0x000000000000b820                _fini
- .fini          0x000000000000b824        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtn.o
+ .fini          0x000000000000bd90        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crti.o
+                0x000000000000bd90                _fini
+ .fini          0x000000000000bd94        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -13729,145 +13706,144 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x000000000000b82c       0x18 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
- .rodata        0x000000000000b844       0x77 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd.o
- *fill*         0x000000000000b8bb        0x1 
- .rodata        0x000000000000b8bc       0x10 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd_display.o
- .rodata        0x000000000000b8cc       0xa8 ./gecko_sdk_3.2.2/platform/emlib/src/em_acmp.o
- .rodata        0x000000000000b974      0x1e1 ./gecko_sdk_3.2.2/platform/emlib/src/em_cmu.o
- *fill*         0x000000000000bb55        0x3 
+ .rodata        0x000000000000bd9c       0x18 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
+ .rodata        0x000000000000bdb4       0x77 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd.o
+ *fill*         0x000000000000be2b        0x1 
+ .rodata        0x000000000000be2c       0x10 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd_display.o
+ .rodata        0x000000000000be3c       0xa8 ./gecko_sdk_3.2.2/platform/emlib/src/em_acmp.o
+ .rodata        0x000000000000bee4      0x1e1 ./gecko_sdk_3.2.2/platform/emlib/src/em_cmu.o
+ *fill*         0x000000000000c0c5        0x3 
  .rodata.flashWsTable
-                0x000000000000bb58       0x28 ./gecko_sdk_3.2.2/platform/emlib/src/em_cmu.o
- .rodata        0x000000000000bb80       0xf3 ./gecko_sdk_3.2.2/platform/emlib/src/em_emu.o
- *fill*         0x000000000000bc73        0x1 
- .rodata        0x000000000000bc74      0x166 ./gecko_sdk_3.2.2/platform/emlib/src/em_gpio.o
- *fill*         0x000000000000bdda        0x2 
- .rodata        0x000000000000bddc       0xee ./gecko_sdk_3.2.2/platform/emlib/src/em_rtcc.o
- *fill*         0x000000000000beca        0x2 
- .rodata        0x000000000000becc       0x77 ./gecko_sdk_3.2.2/platform/emlib/src/em_usart.o
- *fill*         0x000000000000bf43        0x1 
- .rodata        0x000000000000bf44       0x89 ./gecko_sdk_3.2.2/platform/micrium_os/common/source/lib/lib_mem.o
- *fill*         0x000000000000bfcd        0x3 
+                0x000000000000c0c8       0x28 ./gecko_sdk_3.2.2/platform/emlib/src/em_cmu.o
+ .rodata        0x000000000000c0f0       0xf3 ./gecko_sdk_3.2.2/platform/emlib/src/em_emu.o
+ *fill*         0x000000000000c1e3        0x1 
+ .rodata        0x000000000000c1e4      0x166 ./gecko_sdk_3.2.2/platform/emlib/src/em_gpio.o
+ *fill*         0x000000000000c34a        0x2 
+ .rodata        0x000000000000c34c       0xee ./gecko_sdk_3.2.2/platform/emlib/src/em_rtcc.o
+ *fill*         0x000000000000c43a        0x2 
+ .rodata        0x000000000000c43c       0x77 ./gecko_sdk_3.2.2/platform/emlib/src/em_usart.o
+ *fill*         0x000000000000c4b3        0x1 
+ .rodata        0x000000000000c4b4       0x89 ./gecko_sdk_3.2.2/platform/micrium_os/common/source/lib/lib_mem.o
+ *fill*         0x000000000000c53d        0x3 
  .rodata.__func__.2
-                0x000000000000bfd0       0x15 ./gecko_sdk_3.2.2/platform/micrium_os/common/source/lib/lib_mem.o
- *fill*         0x000000000000bfe5        0x3 
+                0x000000000000c540       0x15 ./gecko_sdk_3.2.2/platform/micrium_os/common/source/lib/lib_mem.o
+ *fill*         0x000000000000c555        0x3 
  .rodata.__func__.1
-                0x000000000000bfe8       0x18 ./gecko_sdk_3.2.2/platform/micrium_os/common/source/lib/lib_mem.o
+                0x000000000000c558       0x18 ./gecko_sdk_3.2.2/platform/micrium_os/common/source/lib/lib_mem.o
  .rodata.OSCfg_StkSizeMin
-                0x000000000000c000        0x4 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_cfg_app.o
-                0x000000000000c000                OSCfg_StkSizeMin
- .rodata        0x000000000000c004       0xfe ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
- *fill*         0x000000000000c102        0x2 
+                0x000000000000c570        0x4 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_cfg_app.o
+                0x000000000000c570                OSCfg_StkSizeMin
+ .rodata        0x000000000000c574       0xfe ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
+ *fill*         0x000000000000c672        0x2 
  .rodata.__func__.6
-                0x000000000000c104        0x7 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
- *fill*         0x000000000000c10b        0x1 
+                0x000000000000c674        0x7 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
+ *fill*         0x000000000000c67b        0x1 
  .rodata.__func__.5
-                0x000000000000c10c        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
+                0x000000000000c67c        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
  .rodata.__func__.4
-                0x000000000000c118        0xe ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
- *fill*         0x000000000000c126        0x2 
+                0x000000000000c688        0xe ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
+ *fill*         0x000000000000c696        0x2 
  .rodata.__func__.1
-                0x000000000000c128        0x8 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
- .rodata        0x000000000000c130       0x84 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_msg.o
+                0x000000000000c698        0x8 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_core.o
+ .rodata        0x000000000000c6a0       0x84 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_msg.o
  .rodata.__func__.2
-                0x000000000000c1b4        0xf ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_msg.o
- *fill*         0x000000000000c1c3        0x1 
- .rodata        0x000000000000c1c4       0x92 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_mutex.o
- *fill*         0x000000000000c256        0x2 
+                0x000000000000c724        0xf ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_msg.o
+ *fill*         0x000000000000c733        0x1 
+ .rodata        0x000000000000c734       0x92 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_mutex.o
+ *fill*         0x000000000000c7c6        0x2 
  .rodata.__func__.4
-                0x000000000000c258        0xe ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_mutex.o
- *fill*         0x000000000000c266        0x2 
+                0x000000000000c7c8        0xe ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_mutex.o
+ *fill*         0x000000000000c7d6        0x2 
  .rodata.__func__.2
-                0x000000000000c268        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_mutex.o
+                0x000000000000c7d8        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_mutex.o
  .rodata.__func__.0
-                0x000000000000c274        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_mutex.o
- .rodata        0x000000000000c280       0x9b ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_stat.o
- *fill*         0x000000000000c31b        0x1 
+                0x000000000000c7e4        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_mutex.o
+ .rodata        0x000000000000c7f0       0x9b ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_stat.o
+ *fill*         0x000000000000c88b        0x1 
  .rodata.__func__.0
-                0x000000000000c31c        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_stat.o
- .rodata        0x000000000000c328       0x92 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
- *fill*         0x000000000000c3ba        0x2 
+                0x000000000000c88c        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_stat.o
+ .rodata        0x000000000000c898       0x92 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
+ *fill*         0x000000000000c92a        0x2 
  .rodata.__func__.17
-                0x000000000000c3bc        0xd ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
- *fill*         0x000000000000c3c9        0x3 
+                0x000000000000c92c        0xd ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
+ *fill*         0x000000000000c939        0x3 
  .rodata.__func__.16
-                0x000000000000c3cc        0xa ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
- *fill*         0x000000000000c3d6        0x2 
+                0x000000000000c93c        0xa ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
+ *fill*         0x000000000000c946        0x2 
  .rodata.__func__.3
-                0x000000000000c3d8        0xd ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
- *fill*         0x000000000000c3e5        0x3 
+                0x000000000000c948        0xd ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
+ *fill*         0x000000000000c955        0x3 
  .rodata.__func__.0
-                0x000000000000c3e8        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
- .rodata        0x000000000000c3f4       0x85 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_time.o
- *fill*         0x000000000000c479        0x3 
+                0x000000000000c958        0xc ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_task.o
+ .rodata        0x000000000000c964       0x85 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_time.o
+ *fill*         0x000000000000c9e9        0x3 
  .rodata.__func__.4
-                0x000000000000c47c       0x14 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_time.o
+                0x000000000000c9ec       0x14 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_time.o
  .rodata.__func__.3
-                0x000000000000c490        0xa ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_time.o
- *fill*         0x000000000000c49a        0x2 
- .rodata        0x000000000000c49c       0xb0 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_tmr.o
+                0x000000000000ca00        0xa ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_time.o
+ *fill*         0x000000000000ca0a        0x2 
+ .rodata        0x000000000000ca0c       0xb0 ./gecko_sdk_3.2.2/platform/micrium_os/kernel/source/os_tmr.o
  .rodata.GLIB_FontNarrow6x8PixMap
-                0x000000000000c54c      0x320 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+                0x000000000000cabc      0x320 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
  .rodata.GLIB_FontNarrow6x8
-                0x000000000000c86c       0x10 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
-                0x000000000000c86c                GLIB_FontNarrow6x8
+                0x000000000000cddc       0x10 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+                0x000000000000cddc                GLIB_FontNarrow6x8
  .rodata.GLIB_FontNormal8x8PixMap
-                0x000000000000c87c      0x320 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+                0x000000000000cdec      0x320 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
  .rodata.GLIB_FontNormal8x8
-                0x000000000000cb9c       0x10 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
-                0x000000000000cb9c                GLIB_FontNormal8x8
- .rodata        0x000000000000cbac      0x17f ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- *fill*         0x000000000000cd2b        0x1 
- .rodata        0x000000000000cd2c       0xca ./src/Source_Files/blink.o
- *fill*         0x000000000000cdf6        0x2 
- .rodata        0x000000000000cdf8       0x12 ./src/Source_Files/bsp_os.o
- *fill*         0x000000000000ce0a        0x2 
+                0x000000000000d10c       0x10 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+                0x000000000000d10c                GLIB_FontNormal8x8
+ .rodata        0x000000000000d11c      0x17f ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ *fill*         0x000000000000d29b        0x1 
+ .rodata        0x000000000000d29c      0x184 ./src/Source_Files/blink.o
+ .rodata        0x000000000000d420       0x12 ./src/Source_Files/bsp_os.o
+ *fill*         0x000000000000d432        0x2 
  .rodata.channelList
-                0x000000000000ce0c        0x4 ./src/Source_Files/capsense.o
- .rodata        0x000000000000ce10       0x18 ./src/Source_Files/capsense.o
- .rodata        0x000000000000ce28       0x32 ./src/main.o
- *fill*         0x000000000000ce5a        0x2 
+                0x000000000000d434        0x4 ./src/Source_Files/capsense.o
+ .rodata        0x000000000000d438       0x18 ./src/Source_Files/capsense.o
+ .rodata        0x000000000000d450       0x32 ./src/main.o
+ *fill*         0x000000000000d482        0x2 
  .rodata._global_impure_ptr
-                0x000000000000ce5c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-impure.o)
-                0x000000000000ce5c                _global_impure_ptr
+                0x000000000000d484        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-impure.o)
+                0x000000000000d484                _global_impure_ptr
  .rodata._svfprintf_r.str1.1
-                0x000000000000ce60       0x11 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000000d488       0x11 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x000000000000ce71       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000000d499       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
  *(.eh_frame*)
- *fill*         0x000000000000ce93        0x1 
- .eh_frame      0x000000000000ce94        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ *fill*         0x000000000000d4bb        0x1 
+ .eh_frame      0x000000000000d4bc        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
-.glue_7         0x000000000000ce94        0x0
- .glue_7        0x000000000000ce94        0x0 linker stubs
+.glue_7         0x000000000000d4bc        0x0
+ .glue_7        0x000000000000d4bc        0x0 linker stubs
 
-.glue_7t        0x000000000000ce94        0x0
- .glue_7t       0x000000000000ce94        0x0 linker stubs
+.glue_7t        0x000000000000d4bc        0x0
+ .glue_7t       0x000000000000d4bc        0x0 linker stubs
 
-.vfp11_veneer   0x000000000000ce94        0x0
- .vfp11_veneer  0x000000000000ce94        0x0 linker stubs
+.vfp11_veneer   0x000000000000d4bc        0x0
+ .vfp11_veneer  0x000000000000d4bc        0x0 linker stubs
 
-.v4_bx          0x000000000000ce94        0x0
- .v4_bx         0x000000000000ce94        0x0 linker stubs
+.v4_bx          0x000000000000d4bc        0x0
+ .v4_bx         0x000000000000d4bc        0x0 linker stubs
 
-.iplt           0x000000000000ce94        0x0
- .iplt          0x000000000000ce94        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+.iplt           0x000000000000d4bc        0x0
+ .iplt          0x000000000000d4bc        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000000ce94                __exidx_start = .
+                0x000000000000d4bc                __exidx_start = .
 
-.ARM.exidx      0x000000000000ce94        0x8
+.ARM.exidx      0x000000000000d4bc        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x000000000000ce94        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o
+ .ARM.exidx     0x000000000000d4bc        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/crt0.o
                                          0x10 (size before relaxing)
- .ARM.exidx     0x000000000000ce9c        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x000000000000d4c4        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
                                           0x8 (size before relaxing)
-                0x000000000000ce9c                __exidx_end = .
-                0x000000000000ce9c                __etext = .
+                0x000000000000d4c4                __exidx_end = .
+                0x000000000000d4c4                __etext = .
 
-.rel.dyn        0x000000000000ce9c        0x0
- .rel.iplt      0x000000000000ce9c        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+.rel.dyn        0x000000000000d4c4        0x0
+ .rel.iplt      0x000000000000d4c4        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
                 0x0000000020000000                . = ORIGIN (RAM)
 
 .stack          0x0000000020000000     0x1000
@@ -13882,7 +13858,7 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
 .noinit
  *(.noinit*)
 
-.data           0x0000000020001000      0x138 load address 0x000000000000ce9c
+.data           0x0000000020001000      0x138 load address 0x000000000000d4c4
                 0x0000000020001000                . = ALIGN (0x4)
                 0x0000000020001000                __data_start__ = .
  *(vtable)
@@ -14037,7 +14013,9 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
                 0x00000000200010c4                OSDbg_DataSize
  .data.cc_disabled
                 0x00000000200010c8        0x1 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- *fill*         0x00000000200010c9        0x3 
+ .data.newGame  0x00000000200010c9        0x1 ./src/Source_Files/blink.o
+                0x00000000200010c9                newGame
+ *fill*         0x00000000200010ca        0x2 
  .data._impure_ptr
                 0x00000000200010cc        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-impure.o)
                 0x00000000200010cc                _impure_ptr
@@ -14066,10 +14044,10 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
                 0x0000000020001138                . = ALIGN (0x4)
                 0x0000000020001138                __data_end__ = .
 
-.igot.plt       0x0000000020001138        0x0 load address 0x000000000000cfd4
+.igot.plt       0x0000000020001138        0x0 load address 0x000000000000d5fc
  .igot.plt      0x0000000020001138        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
 
-.bss            0x0000000020001138     0x45f8 load address 0x000000000000cfd4
+.bss            0x0000000020001138     0x4ee4 load address 0x000000000000d5fc
                 0x0000000020001138                . = ALIGN (0x4)
                 0x0000000020001138                __bss_start__ = .
  *(.bss*)
@@ -14369,82 +14347,86 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
  *fill*         0x00000000200044cd        0x3 
  .bss.LCD_TCB   0x00000000200044d0       0xec ./src/Source_Files/blink.o
  .bss.PHY_TCB   0x00000000200045bc       0xec ./src/Source_Files/blink.o
+ .bss.Button_InputTaskTCB
+                0x00000000200046a8       0xec ./src/Source_Files/blink.o
  .bss.LCD_stack
-                0x00000000200046a8      0x800 ./src/Source_Files/blink.o
+                0x0000000020004794      0x800 ./src/Source_Files/blink.o
  .bss.PHY_stack
-                0x0000000020004ea8      0x800 ./src/Source_Files/blink.o
+                0x0000000020004f94      0x800 ./src/Source_Files/blink.o
+ .bss.ButtonTaskStk
+                0x0000000020005794      0x800 ./src/Source_Files/blink.o
  .bss.glibContext
-                0x00000000200056a8       0x2c ./src/Source_Files/blink.o
+                0x0000000020005f94       0x2c ./src/Source_Files/blink.o
  .bss.platform_context
-                0x00000000200056d4       0x10 ./src/Source_Files/blink.o
- .bss.platform  0x00000000200056e4       0x10 ./src/Source_Files/blink.o
-                0x00000000200056e4                platform
+                0x0000000020005fc0       0x10 ./src/Source_Files/blink.o
+ .bss.platform  0x0000000020005fd0       0x10 ./src/Source_Files/blink.o
+                0x0000000020005fd0                platform
  .bss.left_sense_hard
-                0x00000000200056f4        0x1 ./src/Source_Files/blink.o
-                0x00000000200056f4                left_sense_hard
+                0x0000000020005fe0        0x1 ./src/Source_Files/blink.o
+                0x0000000020005fe0                left_sense_hard
  .bss.left_sense_soft
-                0x00000000200056f5        0x1 ./src/Source_Files/blink.o
-                0x00000000200056f5                left_sense_soft
+                0x0000000020005fe1        0x1 ./src/Source_Files/blink.o
+                0x0000000020005fe1                left_sense_soft
  .bss.right_sense_hard
-                0x00000000200056f6        0x1 ./src/Source_Files/blink.o
-                0x00000000200056f6                right_sense_hard
+                0x0000000020005fe2        0x1 ./src/Source_Files/blink.o
+                0x0000000020005fe2                right_sense_hard
  .bss.right_sense_soft
-                0x00000000200056f7        0x1 ./src/Source_Files/blink.o
-                0x00000000200056f7                right_sense_soft
- .bss.game_won  0x00000000200056f8        0x1 ./src/Source_Files/blink.o
-                0x00000000200056f8                game_won
+                0x0000000020005fe3        0x1 ./src/Source_Files/blink.o
+                0x0000000020005fe3                right_sense_soft
+ .bss.game_won  0x0000000020005fe4        0x1 ./src/Source_Files/blink.o
+                0x0000000020005fe4                game_won
  .bss.game_loss
-                0x00000000200056f9        0x1 ./src/Source_Files/blink.o
-                0x00000000200056f9                game_loss
- .bss.platform_boost
-                0x00000000200056fa        0x1 ./src/Source_Files/blink.o
-                0x00000000200056fa                platform_boost
- .bss.CAP_SENSE_TEST
-                0x00000000200056fb        0x1 ./src/Source_Files/blink.o
-                0x00000000200056fb                CAP_SENSE_TEST
+                0x0000000020005fe5        0x1 ./src/Source_Files/blink.o
+                0x0000000020005fe5                game_loss
+ .bss.B0_Pressed
+                0x0000000020005fe6        0x1 ./src/Source_Files/blink.o
+                0x0000000020005fe6                B0_Pressed
+ .bss.B1_Pressed
+                0x0000000020005fe7        0x1 ./src/Source_Files/blink.o
+                0x0000000020005fe7                B1_Pressed
  .bss.currentChannel
-                0x00000000200056fc        0x1 ./src/Source_Files/capsense.o
+                0x0000000020005fe8        0x1 ./src/Source_Files/capsense.o
  .bss.measurementComplete
-                0x00000000200056fd        0x1 ./src/Source_Files/capsense.o
- *fill*         0x00000000200056fe        0x2 
+                0x0000000020005fe9        0x1 ./src/Source_Files/capsense.o
+ *fill*         0x0000000020005fea        0x2 
  .bss.channelValues
-                0x0000000020005700       0x10 ./src/Source_Files/capsense.o
+                0x0000000020005fec       0x10 ./src/Source_Files/capsense.o
  .bss.channelMaxValues
-                0x0000000020005710       0x10 ./src/Source_Files/capsense.o
+                0x0000000020005ffc       0x10 ./src/Source_Files/capsense.o
  .bss.__malloc_free_list
-                0x0000000020005720        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020005720                __malloc_free_list
+                0x000000002000600c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x000000002000600c                __malloc_free_list
  .bss.__malloc_sbrk_start
-                0x0000000020005724        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020005724                __malloc_sbrk_start
- .bss.errno     0x0000000020005728        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-reent.o)
-                0x0000000020005728                errno
+                0x0000000020006010        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020006010                __malloc_sbrk_start
+ .bss.errno     0x0000000020006014        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-reent.o)
+                0x0000000020006014                errno
  .bss.__lock___malloc_recursive_mutex
-                0x000000002000572c        0x1 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
-                0x000000002000572c                __lock___malloc_recursive_mutex
+                0x0000000020006018        0x1 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
+                0x0000000020006018                __lock___malloc_recursive_mutex
  *(COMMON)
-                0x0000000020005730                . = ALIGN (0x4)
- *fill*         0x000000002000572d        0x3 
-                0x0000000020005730                __bss_end__ = .
+                0x000000002000601c                . = ALIGN (0x4)
+ *fill*         0x0000000020006019        0x3 
+                0x000000002000601c                __bss_end__ = .
 
-.heap           0x0000000020005730    0x3a8d0
-                0x0000000020005730                __HeapBase = .
-                0x0000000020005730                __end__ = .
-                0x0000000020005730                end = __end__
-                0x0000000020005730                _end = __end__
+.heap           0x0000000020006020    0x39fe0
+                0x0000000020006020                __HeapBase = .
+                0x0000000020006020                __end__ = .
+                0x0000000020006020                end = __end__
+                0x0000000020006020                _end = __end__
  *(.heap*)
- .heap          0x0000000020005730      0x800 ./gecko_sdk_3.2.2/platform/common/toolchain/src/sl_memory.o
+ .heap          0x0000000020006020      0x800 ./gecko_sdk_3.2.2/platform/common/toolchain/src/sl_memory.o
                 0x0000000020040000                . = (ORIGIN (RAM) + LENGTH (RAM))
- *fill*         0x0000000020005f30    0x3a0d0 
+ *fill*         0x0000000020006820    0x397e0 
                 0x0000000020040000                __HeapLimit = .
-                0x000000000003a8d0                __heap_size = (__HeapLimit - __HeapBase)
+                0x0000000000039fe0                __heap_size = (__HeapLimit - __HeapBase)
                 0x0000000000100000                __main_flash_end__ = 0x100000
 
 .internal_storage
-                0x000000000000ce9c        0x0
+                0x000000000000d4c4        0x0
  *(.internal_storage*)
 
-.nvm            0x000000000000ce9c        0x0
+.nvm            0x000000000000d4c4        0x0
  *(.simee*)
                 0x0000000000100000                linker_nvm_end = __main_flash_end__
                 0x0000000000100000                linker_nvm_begin = (linker_nvm_end - SIZEOF (.nvm))
@@ -14533,93 +14515,97 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000006bf       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
  .ARM.attributes
-                0x00000000000006f1       0x37 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+                0x00000000000006f1       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .ARM.attributes
-                0x0000000000000728       0x37 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+                0x0000000000000723       0x37 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
  .ARM.attributes
-                0x000000000000075f       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+                0x000000000000075a       0x37 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
  .ARM.attributes
-                0x0000000000000791       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+                0x0000000000000791       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
  .ARM.attributes
-                0x00000000000007c3       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+                0x00000000000007c3       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .ARM.attributes
-                0x00000000000007f5       0x32 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x00000000000007f5       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
  .ARM.attributes
-                0x0000000000000827       0x32 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000000827       0x32 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
  .ARM.attributes
-                0x0000000000000859       0x32 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+                0x0000000000000859       0x32 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
  .ARM.attributes
-                0x000000000000088b       0x20 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
+                0x000000000000088b       0x32 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .ARM.attributes
-                0x00000000000008ab       0x32 ./src/Source_Files/app.o
+                0x00000000000008bd       0x32 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
  .ARM.attributes
-                0x00000000000008dd       0x32 ./src/Source_Files/blink.o
+                0x00000000000008ef       0x20 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
  .ARM.attributes
-                0x000000000000090f       0x32 ./src/Source_Files/bsp_os.o
+                0x000000000000090f       0x32 ./src/Source_Files/app.o
  .ARM.attributes
-                0x0000000000000941       0x32 ./src/Source_Files/capsense.o
+                0x0000000000000941       0x32 ./src/Source_Files/blink.o
  .ARM.attributes
-                0x0000000000000973       0x32 ./src/Source_Files/cmu.o
+                0x0000000000000973       0x32 ./src/Source_Files/bsp_os.o
  .ARM.attributes
-                0x00000000000009a5       0x32 ./src/Source_Files/gpio.o
+                0x00000000000009a5       0x32 ./src/Source_Files/capsense.o
  .ARM.attributes
-                0x00000000000009d7       0x32 ./src/main.o
+                0x00000000000009d7       0x32 ./src/Source_Files/cmu.o
  .ARM.attributes
-                0x0000000000000a09       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_muldf3.o)
+                0x0000000000000a09       0x32 ./src/Source_Files/gpio.o
  .ARM.attributes
-                0x0000000000000a27       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_addsubdf3.o)
+                0x0000000000000a3b       0x32 ./src/main.o
  .ARM.attributes
-                0x0000000000000a45       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixdfsi.o)
+                0x0000000000000a6d       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_muldf3.o)
  .ARM.attributes
-                0x0000000000000a63       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000000000000a8b       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x0000000000000a81       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000000000aa9       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x0000000000000a9f       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
+                0x0000000000000ac7       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixunsdfsi.o)
  .ARM.attributes
-                0x0000000000000ad1       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_dvmd_tls.o)
+                0x0000000000000ae5       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000000000000aef       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-abs.o)
+                0x0000000000000b03       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000000000000b21       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-exit.o)
+                0x0000000000000b35       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x0000000000000b53       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-impure.o)
+                0x0000000000000b53       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-abs.o)
  .ARM.attributes
-                0x0000000000000b83       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-init.o)
+                0x0000000000000b85       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-exit.o)
  .ARM.attributes
-                0x0000000000000bb5       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000000bb7       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000000000000be7       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memset.o)
+                0x0000000000000be7       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x0000000000000c19       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000000000c19       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000000000000c4b       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000000c4b       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000000000000c7d       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000000000c7d       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x0000000000000caf       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sprintf.o)
+                0x0000000000000caf       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x0000000000000ce1       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-mlock.o)
+                0x0000000000000ce1       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000000000000d13       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000000000d13       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x0000000000000d45       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000000d45       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000d77       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-reent.o)
+                0x0000000000000d77       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x0000000000000da9       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
+                0x0000000000000da9       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x0000000000000ddb       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memchr.o)
+                0x0000000000000ddb       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000000000000df7       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memmove.o)
+                0x0000000000000e0d       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x0000000000000e29       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000000000e3f       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memchr.o)
  .ARM.attributes
-                0x0000000000000e5b       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-msizer.o)
+                0x0000000000000e5b       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x0000000000000e8d       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libnosys.a(_exit.o)
+                0x0000000000000e8d       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x0000000000000ebf       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtn.o
+                0x0000000000000ebf       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x0000000000000ef1       0x32 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000000000000f23       0x1e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/crtn.o
 
 .comment        0x0000000000000000       0x4d
  .comment       0x0000000000000000       0x4d ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
@@ -14655,9 +14641,11 @@ LOAD linker stubs
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/micrium_os/ports/source/gnu/armv7m_os_cpu_c.o
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/dmd/display/dmd_memlcd.o
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
+ .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
  .comment       0x000000000000004d       0x4e ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
@@ -14671,7 +14659,7 @@ LOAD linker stubs
  .comment       0x000000000000004d       0x4e ./src/Source_Files/gpio.o
  .comment       0x000000000000004d       0x4e ./src/main.o
 
-.debug_info     0x0000000000000000    0x2432c
+.debug_info     0x0000000000000000    0x24ede
  .debug_info    0x0000000000000000      0x38b ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_info    0x000000000000038b      0x930 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
  .debug_info    0x0000000000000cbb      0xd8b ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd.o
@@ -14706,24 +14694,26 @@ LOAD linker stubs
  .debug_info    0x0000000000019af4      0xc8d ./gecko_sdk_3.2.2/platform/micrium_os/ports/source/gnu/armv7m_os_cpu_c.o
  .debug_info    0x000000000001a781      0x7b8 ./gecko_sdk_3.2.2/platform/middleware/glib/dmd/display/dmd_memlcd.o
  .debug_info    0x000000000001af39      0x84d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
- .debug_info    0x000000000001b786      0x1c5 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
- .debug_info    0x000000000001b94b      0x1c5 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
- .debug_info    0x000000000001bb10      0x66f ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
- .debug_info    0x000000000001c17f      0x4a9 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
- .debug_info    0x000000000001c628      0x62a ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
- .debug_info    0x000000000001cc52      0xc3b ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_info    0x000000000001d88d      0xe81 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- .debug_info    0x000000000001e70e       0xee ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
- .debug_info    0x000000000001e7fc       0x26 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
- .debug_info    0x000000000001e822       0xa7 ./src/Source_Files/app.o
- .debug_info    0x000000000001e8c9     0x1a5f ./src/Source_Files/blink.o
- .debug_info    0x0000000000020328     0x11ae ./src/Source_Files/bsp_os.o
- .debug_info    0x00000000000214d6     0x12d3 ./src/Source_Files/capsense.o
- .debug_info    0x00000000000227a9      0x2d1 ./src/Source_Files/cmu.o
- .debug_info    0x0000000000022a7a      0x169 ./src/Source_Files/gpio.o
- .debug_info    0x0000000000022be3     0x1749 ./src/main.o
+ .debug_info    0x000000000001b786      0x589 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+ .debug_info    0x000000000001bd0f      0x1c5 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+ .debug_info    0x000000000001bed4      0x1c5 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+ .debug_info    0x000000000001c099      0x66f ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .debug_info    0x000000000001c708      0x527 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+ .debug_info    0x000000000001cc2f      0x4a9 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+ .debug_info    0x000000000001d0d8      0x62a ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+ .debug_info    0x000000000001d702      0xc3b ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_info    0x000000000001e33d      0xe81 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_info    0x000000000001f1be       0xee ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+ .debug_info    0x000000000001f2ac       0x26 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
+ .debug_info    0x000000000001f2d2       0xa7 ./src/Source_Files/app.o
+ .debug_info    0x000000000001f379     0x1b61 ./src/Source_Files/blink.o
+ .debug_info    0x0000000000020eda     0x11ae ./src/Source_Files/bsp_os.o
+ .debug_info    0x0000000000022088     0x12d3 ./src/Source_Files/capsense.o
+ .debug_info    0x000000000002335b      0x2d1 ./src/Source_Files/cmu.o
+ .debug_info    0x000000000002362c      0x169 ./src/Source_Files/gpio.o
+ .debug_info    0x0000000000023795     0x1749 ./src/main.o
 
-.debug_abbrev   0x0000000000000000     0x4e78
+.debug_abbrev   0x0000000000000000     0x518c
  .debug_abbrev  0x0000000000000000      0x109 ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_abbrev  0x0000000000000109      0x1b0 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
  .debug_abbrev  0x00000000000002b9      0x22a ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd.o
@@ -14758,24 +14748,26 @@ LOAD linker stubs
  .debug_abbrev  0x00000000000033c0      0x225 ./gecko_sdk_3.2.2/platform/micrium_os/ports/source/gnu/armv7m_os_cpu_c.o
  .debug_abbrev  0x00000000000035e5      0x1dc ./gecko_sdk_3.2.2/platform/middleware/glib/dmd/display/dmd_memlcd.o
  .debug_abbrev  0x00000000000037c1      0x20b ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
- .debug_abbrev  0x00000000000039cc       0xeb ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
- .debug_abbrev  0x0000000000003ab7       0xeb ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
- .debug_abbrev  0x0000000000003ba2      0x1cd ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
- .debug_abbrev  0x0000000000003d6f      0x162 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
- .debug_abbrev  0x0000000000003ed1      0x179 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
- .debug_abbrev  0x000000000000404a      0x21f ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_abbrev  0x0000000000004269      0x2a0 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- .debug_abbrev  0x0000000000004509       0x7a ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
- .debug_abbrev  0x0000000000004583       0x14 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
- .debug_abbrev  0x0000000000004597       0x49 ./src/Source_Files/app.o
- .debug_abbrev  0x00000000000045e0      0x29d ./src/Source_Files/blink.o
- .debug_abbrev  0x000000000000487d      0x167 ./src/Source_Files/bsp_os.o
- .debug_abbrev  0x00000000000049e4      0x20d ./src/Source_Files/capsense.o
- .debug_abbrev  0x0000000000004bf1       0x77 ./src/Source_Files/cmu.o
- .debug_abbrev  0x0000000000004c68       0x6e ./src/Source_Files/gpio.o
- .debug_abbrev  0x0000000000004cd6      0x1a2 ./src/main.o
+ .debug_abbrev  0x00000000000039cc      0x183 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+ .debug_abbrev  0x0000000000003b4f       0xeb ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+ .debug_abbrev  0x0000000000003c3a       0xeb ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+ .debug_abbrev  0x0000000000003d25      0x1cd ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .debug_abbrev  0x0000000000003ef2      0x158 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+ .debug_abbrev  0x000000000000404a      0x162 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+ .debug_abbrev  0x00000000000041ac      0x179 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+ .debug_abbrev  0x0000000000004325      0x21f ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_abbrev  0x0000000000004544      0x2a0 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_abbrev  0x00000000000047e4       0x7a ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+ .debug_abbrev  0x000000000000485e       0x14 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
+ .debug_abbrev  0x0000000000004872       0x49 ./src/Source_Files/app.o
+ .debug_abbrev  0x00000000000048bb      0x2d6 ./src/Source_Files/blink.o
+ .debug_abbrev  0x0000000000004b91      0x167 ./src/Source_Files/bsp_os.o
+ .debug_abbrev  0x0000000000004cf8      0x20d ./src/Source_Files/capsense.o
+ .debug_abbrev  0x0000000000004f05       0x77 ./src/Source_Files/cmu.o
+ .debug_abbrev  0x0000000000004f7c       0x6e ./src/Source_Files/gpio.o
+ .debug_abbrev  0x0000000000004fea      0x1a2 ./src/main.o
 
-.debug_loc      0x0000000000000000     0x608f
+.debug_loc      0x0000000000000000     0x620f
  .debug_loc     0x0000000000000000      0x1a0 ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_loc     0x00000000000001a0       0xd5 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
  .debug_loc     0x0000000000000275      0x250 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd.o
@@ -14806,21 +14798,23 @@ LOAD linker stubs
  .debug_loc     0x000000000000484b      0x1ac ./gecko_sdk_3.2.2/platform/micrium_os/ports/source/gnu/armv7m_os_cpu_c.o
  .debug_loc     0x00000000000049f7      0x299 ./gecko_sdk_3.2.2/platform/middleware/glib/dmd/display/dmd_memlcd.o
  .debug_loc     0x0000000000004c90      0x2f4 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
- .debug_loc     0x0000000000004f84      0x10d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
- .debug_loc     0x0000000000005091       0xc8 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
- .debug_loc     0x0000000000005159       0xe0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
- .debug_loc     0x0000000000005239      0x5c3 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_loc     0x00000000000057fc      0x434 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- .debug_loc     0x0000000000005c30       0x38 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
- .debug_loc     0x0000000000005c68       0x20 ./src/Source_Files/app.o
- .debug_loc     0x0000000000005c88      0x1a6 ./src/Source_Files/blink.o
- .debug_loc     0x0000000000005e2e       0x70 ./src/Source_Files/bsp_os.o
- .debug_loc     0x0000000000005e9e      0x140 ./src/Source_Files/capsense.o
- .debug_loc     0x0000000000005fde       0x20 ./src/Source_Files/cmu.o
- .debug_loc     0x0000000000005ffe       0x20 ./src/Source_Files/gpio.o
- .debug_loc     0x000000000000601e       0x71 ./src/main.o
+ .debug_loc     0x0000000000004f84       0xe1 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+ .debug_loc     0x0000000000005065      0x10d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .debug_loc     0x0000000000005172       0x72 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+ .debug_loc     0x00000000000051e4       0xc8 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+ .debug_loc     0x00000000000052ac       0xe0 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+ .debug_loc     0x000000000000538c      0x5c3 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_loc     0x000000000000594f      0x434 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_loc     0x0000000000005d83       0x38 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+ .debug_loc     0x0000000000005dbb       0x20 ./src/Source_Files/app.o
+ .debug_loc     0x0000000000005ddb      0x1d3 ./src/Source_Files/blink.o
+ .debug_loc     0x0000000000005fae       0x70 ./src/Source_Files/bsp_os.o
+ .debug_loc     0x000000000000601e      0x140 ./src/Source_Files/capsense.o
+ .debug_loc     0x000000000000615e       0x20 ./src/Source_Files/cmu.o
+ .debug_loc     0x000000000000617e       0x20 ./src/Source_Files/gpio.o
+ .debug_loc     0x000000000000619e       0x71 ./src/main.o
 
-.debug_aranges  0x0000000000000000     0x15a0
+.debug_aranges  0x0000000000000000     0x1600
  .debug_aranges
                 0x0000000000000000       0x68 ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_aranges
@@ -14890,39 +14884,43 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000001090       0x90 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
  .debug_aranges
-                0x0000000000001120       0x18 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+                0x0000000000001120       0x38 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
  .debug_aranges
-                0x0000000000001138       0x18 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+                0x0000000000001158       0x18 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
  .debug_aranges
-                0x0000000000001150       0x40 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+                0x0000000000001170       0x18 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
  .debug_aranges
-                0x0000000000001190       0x38 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+                0x0000000000001188       0x40 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
  .debug_aranges
-                0x00000000000011c8       0x38 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+                0x00000000000011c8       0x28 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
  .debug_aranges
-                0x0000000000001200      0x108 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+                0x00000000000011f0       0x38 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
  .debug_aranges
-                0x0000000000001308       0xd8 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+                0x0000000000001228       0x38 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
  .debug_aranges
-                0x00000000000013e0       0x20 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+                0x0000000000001260      0x108 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
  .debug_aranges
-                0x0000000000001400       0x20 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
+                0x0000000000001368       0xd8 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
  .debug_aranges
-                0x0000000000001420       0x20 ./src/Source_Files/app.o
+                0x0000000000001440       0x20 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
  .debug_aranges
-                0x0000000000001440       0x68 ./src/Source_Files/blink.o
+                0x0000000000001460       0x20 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
  .debug_aranges
-                0x00000000000014a8       0x38 ./src/Source_Files/bsp_os.o
+                0x0000000000001480       0x20 ./src/Source_Files/app.o
  .debug_aranges
-                0x00000000000014e0       0x50 ./src/Source_Files/capsense.o
+                0x00000000000014a0       0x68 ./src/Source_Files/blink.o
  .debug_aranges
-                0x0000000000001530       0x20 ./src/Source_Files/cmu.o
+                0x0000000000001508       0x38 ./src/Source_Files/bsp_os.o
  .debug_aranges
-                0x0000000000001550       0x20 ./src/Source_Files/gpio.o
+                0x0000000000001540       0x50 ./src/Source_Files/capsense.o
  .debug_aranges
-                0x0000000000001570       0x30 ./src/main.o
+                0x0000000000001590       0x20 ./src/Source_Files/cmu.o
+ .debug_aranges
+                0x00000000000015b0       0x20 ./src/Source_Files/gpio.o
+ .debug_aranges
+                0x00000000000015d0       0x30 ./src/main.o
 
-.debug_ranges   0x0000000000000000     0x1250
+.debug_ranges   0x0000000000000000     0x1290
  .debug_ranges  0x0000000000000000       0x58 ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_ranges  0x0000000000000058       0x28 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
  .debug_ranges  0x0000000000000080       0x68 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd.o
@@ -14954,21 +14952,23 @@ LOAD linker stubs
  .debug_ranges  0x0000000000000d88       0x70 ./gecko_sdk_3.2.2/platform/micrium_os/ports/source/gnu/armv7m_os_cpu_c.o
  .debug_ranges  0x0000000000000df8       0x78 ./gecko_sdk_3.2.2/platform/middleware/glib/dmd/display/dmd_memlcd.o
  .debug_ranges  0x0000000000000e70       0x80 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
- .debug_ranges  0x0000000000000ef0       0x30 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
- .debug_ranges  0x0000000000000f20       0x28 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
- .debug_ranges  0x0000000000000f48       0x28 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
- .debug_ranges  0x0000000000000f70       0xf8 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_ranges  0x0000000000001068       0xc8 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- .debug_ranges  0x0000000000001130       0x10 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
- .debug_ranges  0x0000000000001140       0x10 ./src/Source_Files/app.o
- .debug_ranges  0x0000000000001150       0x58 ./src/Source_Files/blink.o
- .debug_ranges  0x00000000000011a8       0x28 ./src/Source_Files/bsp_os.o
- .debug_ranges  0x00000000000011d0       0x40 ./src/Source_Files/capsense.o
- .debug_ranges  0x0000000000001210       0x10 ./src/Source_Files/cmu.o
- .debug_ranges  0x0000000000001220       0x10 ./src/Source_Files/gpio.o
- .debug_ranges  0x0000000000001230       0x20 ./src/main.o
+ .debug_ranges  0x0000000000000ef0       0x28 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+ .debug_ranges  0x0000000000000f18       0x30 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .debug_ranges  0x0000000000000f48       0x18 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+ .debug_ranges  0x0000000000000f60       0x28 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+ .debug_ranges  0x0000000000000f88       0x28 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+ .debug_ranges  0x0000000000000fb0       0xf8 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_ranges  0x00000000000010a8       0xc8 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_ranges  0x0000000000001170       0x10 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+ .debug_ranges  0x0000000000001180       0x10 ./src/Source_Files/app.o
+ .debug_ranges  0x0000000000001190       0x58 ./src/Source_Files/blink.o
+ .debug_ranges  0x00000000000011e8       0x28 ./src/Source_Files/bsp_os.o
+ .debug_ranges  0x0000000000001210       0x40 ./src/Source_Files/capsense.o
+ .debug_ranges  0x0000000000001250       0x10 ./src/Source_Files/cmu.o
+ .debug_ranges  0x0000000000001260       0x10 ./src/Source_Files/gpio.o
+ .debug_ranges  0x0000000000001270       0x20 ./src/main.o
 
-.debug_macro    0x0000000000000000     0xcce1
+.debug_macro    0x0000000000000000     0xcf95
  .debug_macro   0x0000000000000000      0x2e7 ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_macro   0x00000000000002e7       0x40 ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_macro   0x0000000000000327      0x2f0 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
@@ -15047,49 +15047,51 @@ LOAD linker stubs
  .debug_macro   0x0000000000008f01      0x3b3 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
  .debug_macro   0x00000000000092b4       0x82 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
  .debug_macro   0x0000000000009336       0x51 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
- .debug_macro   0x0000000000009387      0x163 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
- .debug_macro   0x00000000000094ea      0x163 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
- .debug_macro   0x000000000000964d      0x15c ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
- .debug_macro   0x00000000000097a9      0x15d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
- .debug_macro   0x0000000000009906      0x179 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
- .debug_macro   0x0000000000009a7f      0x472 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x0000000000009ef1       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x0000000000009f01       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x0000000000009f11       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x0000000000009f21       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x0000000000009f31       0xb2 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x0000000000009fe3       0x2e ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x000000000000a011       0x16 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x000000000000a027       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x000000000000a037       0x16 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_macro   0x000000000000a04d      0x33e ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- .debug_macro   0x000000000000a38b      0x277 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
- .debug_macro   0x000000000000a602      0x636 ./src/Source_Files/app.o
- .debug_macro   0x000000000000ac38       0xd6 ./src/Source_Files/app.o
- .debug_macro   0x000000000000ad0e       0x76 ./src/Source_Files/app.o
- .debug_macro   0x000000000000ad84       0x94 ./src/Source_Files/app.o
- .debug_macro   0x000000000000ae18       0x10 ./src/Source_Files/app.o
- .debug_macro   0x000000000000ae28       0x3a ./src/Source_Files/app.o
- .debug_macro   0x000000000000ae62       0x1c ./src/Source_Files/app.o
- .debug_macro   0x000000000000ae7e       0x10 ./src/Source_Files/app.o
- .debug_macro   0x000000000000ae8e       0xbe ./src/Source_Files/app.o
- .debug_macro   0x000000000000af4c       0x16 ./src/Source_Files/app.o
- .debug_macro   0x000000000000af62      0x129 ./src/Source_Files/app.o
- .debug_macro   0x000000000000b08b       0x40 ./src/Source_Files/app.o
- .debug_macro   0x000000000000b0cb       0xa6 ./src/Source_Files/app.o
- .debug_macro   0x000000000000b171      0x635 ./src/Source_Files/blink.o
- .debug_macro   0x000000000000b7a6      0x4b3 ./src/Source_Files/bsp_os.o
- .debug_macro   0x000000000000bc59       0x1c ./src/Source_Files/bsp_os.o
- .debug_macro   0x000000000000bc75       0x63 ./src/Source_Files/bsp_os.o
- .debug_macro   0x000000000000bcd8       0xf3 ./src/Source_Files/bsp_os.o
- .debug_macro   0x000000000000bdcb       0x4c ./src/Source_Files/bsp_os.o
- .debug_macro   0x000000000000be17       0x10 ./src/Source_Files/bsp_os.o
- .debug_macro   0x000000000000be27      0x463 ./src/Source_Files/capsense.o
- .debug_macro   0x000000000000c28a      0x2d9 ./src/Source_Files/cmu.o
- .debug_macro   0x000000000000c563      0x2e7 ./src/Source_Files/gpio.o
- .debug_macro   0x000000000000c84a      0x497 ./src/main.o
+ .debug_macro   0x0000000000009387      0x15d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+ .debug_macro   0x00000000000094e4      0x163 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+ .debug_macro   0x0000000000009647      0x163 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+ .debug_macro   0x00000000000097aa      0x15c ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .debug_macro   0x0000000000009906      0x15d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+ .debug_macro   0x0000000000009a63      0x15d ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+ .debug_macro   0x0000000000009bc0      0x179 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+ .debug_macro   0x0000000000009d39      0x472 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a1ab       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a1bb       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a1cb       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a1db       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a1eb       0xb2 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a29d       0x2e ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a2cb       0x16 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a2e1       0x10 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a2f1       0x16 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_macro   0x000000000000a307      0x33e ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_macro   0x000000000000a645      0x277 ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+ .debug_macro   0x000000000000a8bc      0x636 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000aef2       0xd6 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000afc8       0x76 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b03e       0x94 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b0d2       0x10 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b0e2       0x3a ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b11c       0x1c ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b138       0x10 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b148       0xbe ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b206       0x16 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b21c      0x129 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b345       0x40 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b385       0xa0 ./src/Source_Files/app.o
+ .debug_macro   0x000000000000b425      0x635 ./src/Source_Files/blink.o
+ .debug_macro   0x000000000000ba5a      0x4b3 ./src/Source_Files/bsp_os.o
+ .debug_macro   0x000000000000bf0d       0x1c ./src/Source_Files/bsp_os.o
+ .debug_macro   0x000000000000bf29       0x63 ./src/Source_Files/bsp_os.o
+ .debug_macro   0x000000000000bf8c       0xf3 ./src/Source_Files/bsp_os.o
+ .debug_macro   0x000000000000c07f       0x4c ./src/Source_Files/bsp_os.o
+ .debug_macro   0x000000000000c0cb       0x10 ./src/Source_Files/bsp_os.o
+ .debug_macro   0x000000000000c0db      0x463 ./src/Source_Files/capsense.o
+ .debug_macro   0x000000000000c53e      0x2d9 ./src/Source_Files/cmu.o
+ .debug_macro   0x000000000000c817      0x2e7 ./src/Source_Files/gpio.o
+ .debug_macro   0x000000000000cafe      0x497 ./src/main.o
 
-.debug_line     0x0000000000000000    0x32934
+.debug_line     0x0000000000000000    0x3375d
  .debug_line    0x0000000000000000      0xd32 ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_line    0x0000000000000d32      0xcf5 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
  .debug_line    0x0000000000001a27     0x126d ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd.o
@@ -15124,24 +15126,26 @@ LOAD linker stubs
  .debug_line    0x000000000002278a     0x156c ./gecko_sdk_3.2.2/platform/micrium_os/ports/source/gnu/armv7m_os_cpu_c.o
  .debug_line    0x0000000000023cf6     0x1385 ./gecko_sdk_3.2.2/platform/middleware/glib/dmd/display/dmd_memlcd.o
  .debug_line    0x000000000002507b      0xe1e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
- .debug_line    0x0000000000025e99      0x544 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
- .debug_line    0x00000000000263dd      0x544 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
- .debug_line    0x0000000000026921      0x8cd ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
- .debug_line    0x00000000000271ee      0x6fa ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
- .debug_line    0x00000000000278e8      0x79a ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
- .debug_line    0x0000000000028082     0x146d ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_line    0x00000000000294ef      0xff9 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- .debug_line    0x000000000002a4e8      0x9df ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
- .debug_line    0x000000000002aec7       0xbe ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
- .debug_line    0x000000000002af85     0x1435 ./src/Source_Files/app.o
- .debug_line    0x000000000002c3ba     0x17fd ./src/Source_Files/blink.o
- .debug_line    0x000000000002dbb7     0x1261 ./src/Source_Files/bsp_os.o
- .debug_line    0x000000000002ee18     0x1224 ./src/Source_Files/capsense.o
- .debug_line    0x000000000003003c      0xafe ./src/Source_Files/cmu.o
- .debug_line    0x0000000000030b3a      0xbf1 ./src/Source_Files/gpio.o
- .debug_line    0x000000000003172b     0x1209 ./src/main.o
+ .debug_line    0x0000000000025e99      0x6de ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+ .debug_line    0x0000000000026577      0x544 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+ .debug_line    0x0000000000026abb      0x544 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+ .debug_line    0x0000000000026fff      0x8cd ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .debug_line    0x00000000000278cc      0x6f8 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+ .debug_line    0x0000000000027fc4      0x6fa ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+ .debug_line    0x00000000000286be      0x79a ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+ .debug_line    0x0000000000028e58     0x146d ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_line    0x000000000002a2c5      0xff9 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_line    0x000000000002b2be      0x9df ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+ .debug_line    0x000000000002bc9d       0xbe ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
+ .debug_line    0x000000000002bd5b     0x1436 ./src/Source_Files/app.o
+ .debug_line    0x000000000002d191     0x184f ./src/Source_Files/blink.o
+ .debug_line    0x000000000002e9e0     0x1261 ./src/Source_Files/bsp_os.o
+ .debug_line    0x000000000002fc41     0x1224 ./src/Source_Files/capsense.o
+ .debug_line    0x0000000000030e65      0xafe ./src/Source_Files/cmu.o
+ .debug_line    0x0000000000031963      0xbf1 ./src/Source_Files/gpio.o
+ .debug_line    0x0000000000032554     0x1209 ./src/main.o
 
-.debug_str      0x0000000000000000   0x178695
+.debug_str      0x0000000000000000   0x178922
  .debug_str     0x0000000000000000   0x1533ce ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
                                      0x1542d3 (size before relaxing)
  .debug_str     0x00000000001533ce     0x1a09 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
@@ -15210,40 +15214,44 @@ LOAD linker stubs
                                      0x1585e9 (size before relaxing)
  .debug_str     0x0000000000174661     0x1245 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
                                      0x152f76 (size before relaxing)
- .debug_str     0x00000000001758a6       0xba ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
+ .debug_str     0x00000000001758a6      0x11e ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+                                       0x7dd6 (size before relaxing)
+ .debug_str     0x00000000001759c4       0xba ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_narrow_6x8.o
                                        0x7c35 (size before relaxing)
- .debug_str     0x0000000000175960       0xa7 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
+ .debug_str     0x0000000000175a7e       0xa7 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_font_normal_8x8.o
                                        0x7c35 (size before relaxing)
- .debug_str     0x0000000000175a07      0x126 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .debug_str     0x0000000000175b25      0x126 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
                                        0x7df4 (size before relaxing)
- .debug_str     0x0000000000175b2d       0xe1 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+ .debug_str     0x0000000000175c4b      0x15c ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+                                       0x7e29 (size before relaxing)
+ .debug_str     0x0000000000175da7       0xe1 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
                                        0x7dc2 (size before relaxing)
- .debug_str     0x0000000000175c0e      0x198 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+ .debug_str     0x0000000000175e88      0x18a ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
                                        0x7e7b (size before relaxing)
- .debug_str     0x0000000000175da6      0xd20 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_str     0x0000000000176012      0xd20 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
                                      0x1571b2 (size before relaxing)
- .debug_str     0x0000000000176ac6      0x2d9 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_str     0x0000000000176d32      0x2d9 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
                                      0x15611d (size before relaxing)
- .debug_str     0x0000000000176d9f       0xba ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+ .debug_str     0x000000000017700b       0xba ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
                                      0x14ed33 (size before relaxing)
- .debug_str     0x0000000000176e59       0x8c ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
+ .debug_str     0x00000000001770c5       0x8c ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay_armv6m_gcc.o
                                          0xfd (size before relaxing)
- .debug_str     0x0000000000176ee5     0x1121 ./src/Source_Files/app.o
-                                     0x164fa2 (size before relaxing)
- .debug_str     0x0000000000178006      0x24f ./src/Source_Files/blink.o
-                                     0x166937 (size before relaxing)
- .debug_str     0x0000000000178255      0x216 ./src/Source_Files/bsp_os.o
+ .debug_str     0x0000000000177151     0x1110 ./src/Source_Files/app.o
+                                     0x164f91 (size before relaxing)
+ .debug_str     0x0000000000178261      0x281 ./src/Source_Files/blink.o
+                                     0x166979 (size before relaxing)
+ .debug_str     0x00000000001784e2      0x216 ./src/Source_Files/bsp_os.o
                                      0x16124d (size before relaxing)
- .debug_str     0x000000000017846b      0x1d4 ./src/Source_Files/capsense.o
+ .debug_str     0x00000000001786f8      0x1d4 ./src/Source_Files/capsense.o
                                      0x1630a0 (size before relaxing)
- .debug_str     0x000000000017863f       0x23 ./src/Source_Files/cmu.o
+ .debug_str     0x00000000001788cc       0x23 ./src/Source_Files/cmu.o
                                      0x15124e (size before relaxing)
- .debug_str     0x0000000000178662       0x25 ./src/Source_Files/gpio.o
+ .debug_str     0x00000000001788ef       0x25 ./src/Source_Files/gpio.o
                                      0x150b5e (size before relaxing)
- .debug_str     0x0000000000178687        0xe ./src/main.o
+ .debug_str     0x0000000000178914        0xe ./src/main.o
                                      0x162f8e (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x401c
+.debug_frame    0x0000000000000000     0x40f4
  .debug_frame   0x0000000000000000      0x108 ./gecko_sdk_3.2.2/hardware/board/src/sl_board_control_gpio.o
  .debug_frame   0x0000000000000108       0x80 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/memlcd_usart/sl_memlcd_spi.o
  .debug_frame   0x0000000000000188      0x150 ./gecko_sdk_3.2.2/hardware/driver/memlcd/src/sl_memlcd.o
@@ -15275,40 +15283,42 @@ LOAD linker stubs
  .debug_frame   0x0000000000002af0      0x138 ./gecko_sdk_3.2.2/platform/micrium_os/ports/source/gnu/armv7m_os_cpu_c.o
  .debug_frame   0x0000000000002c28      0x180 ./gecko_sdk_3.2.2/platform/middleware/glib/dmd/display/dmd_memlcd.o
  .debug_frame   0x0000000000002da8      0x1bc ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib.o
- .debug_frame   0x0000000000002f64       0x98 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
- .debug_frame   0x0000000000002ffc       0x80 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
- .debug_frame   0x000000000000307c       0x84 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
- .debug_frame   0x0000000000003100      0x35c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
- .debug_frame   0x000000000000345c      0x270 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
- .debug_frame   0x00000000000036cc       0x2c ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
- .debug_frame   0x00000000000036f8       0x28 ./src/Source_Files/app.o
- .debug_frame   0x0000000000003720      0x110 ./src/Source_Files/blink.o
- .debug_frame   0x0000000000003830       0x6c ./src/Source_Files/bsp_os.o
- .debug_frame   0x000000000000389c       0xc4 ./src/Source_Files/capsense.o
- .debug_frame   0x0000000000003960       0x28 ./src/Source_Files/cmu.o
- .debug_frame   0x0000000000003988       0x28 ./src/Source_Files/gpio.o
- .debug_frame   0x00000000000039b0       0x5c ./src/main.o
- .debug_frame   0x0000000000003a0c       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_muldf3.o)
- .debug_frame   0x0000000000003a3c       0xac /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000000000003ae8       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x0000000000003b0c       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixunsdfsi.o)
- .debug_frame   0x0000000000003b30       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000000000003b5c       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000000000003b90       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-abs.o)
- .debug_frame   0x0000000000003bb0       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-exit.o)
- .debug_frame   0x0000000000003bd8       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000003c04       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000003c2c       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000003c4c       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000003c84       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000000000003cb4       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000003ce0       0x6c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sprintf.o)
- .debug_frame   0x0000000000003d4c       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000003d7c       0x90 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x0000000000003e0c       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000003e6c       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-reent.o)
- .debug_frame   0x0000000000003ec8       0xb0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
- .debug_frame   0x0000000000003f78       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000000000003fa0       0x3c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000000000003fdc       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x0000000000003ffc       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libnosys.a(_exit.o)
+ .debug_frame   0x0000000000002f64       0x80 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_circle.o
+ .debug_frame   0x0000000000002fe4       0x98 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_line.o
+ .debug_frame   0x000000000000307c       0x4c ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_polygon.o
+ .debug_frame   0x00000000000030c8       0x80 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_rectangle.o
+ .debug_frame   0x0000000000003148       0x84 ./gecko_sdk_3.2.2/platform/middleware/glib/glib/glib_string.o
+ .debug_frame   0x00000000000031cc      0x35c ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer.o
+ .debug_frame   0x0000000000003528      0x270 ./gecko_sdk_3.2.2/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.o
+ .debug_frame   0x0000000000003798       0x2c ./gecko_sdk_3.2.2/platform/service/udelay/src/sl_udelay.o
+ .debug_frame   0x00000000000037c4       0x28 ./src/Source_Files/app.o
+ .debug_frame   0x00000000000037ec      0x11c ./src/Source_Files/blink.o
+ .debug_frame   0x0000000000003908       0x6c ./src/Source_Files/bsp_os.o
+ .debug_frame   0x0000000000003974       0xc4 ./src/Source_Files/capsense.o
+ .debug_frame   0x0000000000003a38       0x28 ./src/Source_Files/cmu.o
+ .debug_frame   0x0000000000003a60       0x28 ./src/Source_Files/gpio.o
+ .debug_frame   0x0000000000003a88       0x5c ./src/main.o
+ .debug_frame   0x0000000000003ae4       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x0000000000003b14       0xac /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000003bc0       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000003be4       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x0000000000003c08       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000003c34       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000003c68       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-abs.o)
+ .debug_frame   0x0000000000003c88       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000003cb0       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000003cdc       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000003d04       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000003d24       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000003d5c       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000003d8c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000003db8       0x6c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000003e24       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000003e54       0x90 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000003ee4       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000003f44       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000003fa0       0xb0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000004050       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000004078       0x3c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000000040b4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000000000040d4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.2_2020q4/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libnosys.a(_exit.o)

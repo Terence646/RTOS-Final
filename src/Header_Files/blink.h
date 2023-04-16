@@ -45,9 +45,8 @@
 #define TASK_STACK_SIZE         512
 #define LCD_TASK_PRIO             20
 #define PHYS_TASK_PRIO        21
-#define BALL_TASK_PRIO        22
+#define  BUTTON_TASK_PRIO            22  /*   Button Task Priority.                 */
 #define CAP_TASK_PRIO       23
-#define BOOST_TASK_PRIO       24
 
 //Game Defines
 #define REFRESHRATE         60
@@ -76,6 +75,9 @@ typedef struct
 
 void LCD_init(void);
 void game_init(void);
+void loadingScreen(void);
+void read_button1(void);
+void read_button0(void);
 
 
 #define MAX_STR_LEN             48

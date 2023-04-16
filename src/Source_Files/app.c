@@ -25,5 +25,6 @@ void app_init(void)
   gpio_open();
   CAPSENSE_Init();
   LCD_init();
+  loadingScreen();
   game_init();
 }
