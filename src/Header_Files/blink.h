@@ -50,7 +50,7 @@
 
 //Game Defines
 #define REFRESHRATE         60
-#define LEFTBOUND           3
+#define LEFTBOUND           25
 #define RIGHTBOUND          124
 #define TOPBOUND          -50
 #define BOTTOMBOUND         115

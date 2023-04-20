@@ -73,6 +73,7 @@ OS_SEM       Semaphore;
 OS_MUTEX     VS_Mutex;
 OS_MUTEX     VD_Mutex;
 OS_Q         Button_Q;
+int32_t RGIndex[16] = {62,120,62,116,50,104,53,107,76,117,73,120,64,116,64,120};
 
 /*******************************************************************************
  *********************   LOCAL FUNCTION PROTOTYPES   ***************************
@@ -256,6 +257,39 @@ void game_init(void){
   platform_context.yMax = BOTTOMBOUND;
 
   // Create Health Stats Bar
+  castle.xMin = 60; // Outline
+  castle.xMax = 120;
+  castle.yMin = 0;
+  castle.yMax = 6;
+
+ // Moveable Health bar
+  caslteHealth.xMin = 60; // Outline
+  caslteHealth.xMax =120;
+  caslteHealth.yMin = 0;
+  caslteHealth.yMax = 6;
+
+  player.xMin = 60; // Outline
+  player.xMax = 120;
+  player.yMin = 9;
+  player.yMax = 15;
+
+ // Moveable Health bar
+  playerHealth.xMin = 60; // Outline
+  playerHealth.xMax = 120;
+  playerHealth.yMin = 9;
+  playerHealth.yMax = 15;
+
+  energy.xMin = 60; // Outline
+  energy.xMax = 120;
+  energy.yMin = 18;
+  energy.yMax = 24;
+
+// Moveable Energy bar
+  energyTotal.xMin = 60; // Outline
+  energyTotal.xMax = 120;
+  energyTotal.yMin = 18;
+  energyTotal.yMax = 24;
+
 
   OSTaskCreate(&PHY_TCB,                          /* Create the Platform Physics Task.                               */
              "Platform Physics Task",
@@ -296,8 +330,14 @@ static void LCD_task(void *arg){
 
   char plat_speed[16];
   // castle vertecies
-  int32_t castleIndex[24] = {40,25,40,5,50,5,50,10,60,10,60,5,70,5,70,10,80,10,80,5,90,5,90,25};
-  uint32_t numPoints = 12;
+  int32_t castleIndex[46] = {0,128,0,65,0,25,2,25,2,30,4,30,4,25,6,25,6,30,8,30,8,25,10,25,10,30,12,30,12,25,14,25,14,65,20,65,20,70,20,75,30,75,30,128,0,128};
+  uint32_t numPoints = 23;
+
+
+  // Draw Raigun
+  uint32_t numPointsRG = 8;
+
+
 
 
     RTOS_ERR err;
@@ -310,7 +350,7 @@ static void LCD_task(void *arg){
     if(newGame)
       {
         loadingScreen();
-        OSTimeDly(5000, OS_OPT_TIME_DLY, &err);
+        OSTimeDly(1500, OS_OPT_TIME_DLY, &err);
         newGame = false;
       }
 
@@ -334,33 +374,39 @@ static void LCD_task(void *arg){
 
         }
         // Health Stats
-        GLIB_drawString(&glibContext, "Castle:", 7, 3,30,1);
-//        GLIB_drawRectFilled(&glibContext, &platform_context);
-//        GLIB_drawRect(&glibContext, &platform_context);
+        GLIB_drawString(&glibContext, "Castle:", 7, 0,0,1);
 
-        GLIB_drawString(&glibContext, "Player:", 7, 70,30,1);
-//        GLIB_drawRectFilled(&glibContext, &platform_context);
-//        GLIB_drawRect(&glibContext, &platform_context);
+        // Castle Health Status Bar
+        GLIB_drawRectFilled(&glibContext, &castle);
+        GLIB_drawRect(&glibContext, &caslteHealth);
 
-        GLIB_drawString(&glibContext, "E:", 2, 70,60,1);
-//        GLIB_drawRectFilled(&glibContext, &platform_context);
-//        GLIB_drawRect(&glibContext, &platform_context);
+        // Player Health Status Bar
+        GLIB_drawString(&glibContext, "Player:", 7, 0,10,1);
+        GLIB_drawRectFilled(&glibContext, &player);
+        GLIB_drawRect(&glibContext, &playerHealth);
+
+        GLIB_drawString(&glibContext, "E:", 2, 20,20,1);
+        GLIB_drawRectFilled(&glibContext, &energy);
+        GLIB_drawRect(&glibContext, &energyTotal);
+
 
        // Draw Castle
        GLIB_drawPolygonFilled(&glibContext,numPoints, &castleIndex);
 
+       // Draw Railgun
+       GLIB_drawPolygonFilled(&glibContext,numPointsRG,RGIndex);
+
+
       //Draw Platform
       GLIB_drawRectFilled(&glibContext, &platform_context);
-
-      //Display Stats
-      sprintf(plat_speed, "%d", abs(platform.x_velocity));
 
       //Map Drawings
         // Debug
 //      GLIB_drawString(&glibContext, "Plat:", 5, 5,120,1);
 //      GLIB_drawString(&glibContext, plat_speed, 16, 35,120,1);
-      GLIB_drawLine(&glibContext, 2,0, 2, 128);
-      GLIB_drawLine(&glibContext, LEFTBOUND,0, LEFTBOUND, 128);
+//      GLIB_drawLine(&glibContext, 2,0, 2, 128);
+//      GLIB_drawLine(&glibContext, LEFTBOUND,0, LEFTBOUND, 128);
+
       GLIB_drawLine(&glibContext, RIGHTBOUND, 0, RIGHTBOUND, 128);
       GLIB_drawLine(&glibContext, 125, 0, 125, 128);
 
@@ -406,6 +452,7 @@ static void Platform_Physics_Task(){
     platform_right = platform.center + (platform.length * 0.5);
     platform_left  = platform.center - (platform.length * 0.5);
 
+    // check boundary conditions, platform never leaves map
     if (platform_right >= RIGHTBOUND) platform.center = RIGHTBOUND - ((platform.length * 0.5)+.2);
     if (platform_left  <= LEFTBOUND)  platform.center = LEFTBOUND + ((platform.length * 0.5)+.2);
 
@@ -413,8 +460,25 @@ static void Platform_Physics_Task(){
     //update platform GLIB variable
     platform_context.xMin = platform.center - (platform.length * 0.5);
     platform_context.xMax = platform.center + (platform.length * 0.5);
+    int8_t offset = 0;
+
+    // Check map bounds again
+    if((platform.center < RIGHTBOUND - (platform.length * 0.5)) && (platform.center > LEFTBOUND + (platform.length * 0.5)))
+    {
+      offset = platform.center - 64;
+    }
+    // update railgun mount location
+    for(int i = 0; i < 16; i++)
+      {
+        if(i % 2 == 0 || i == 0)
+          {
+            // is even index == x valyes
+            RGIndex[i] = RGIndex[i] + offset;
+          }
+      }
   }
 }
+
 /***************************************************************************//**
  * Satchel task.
  ******************************************************************************/
