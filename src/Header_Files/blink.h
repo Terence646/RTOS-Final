@@ -73,11 +73,35 @@ typedef struct
 } platform_obj;
 
 
+typedef struct
+{
+  /* data */
+  int x_position;
+  float y_position;
+  double time_of_flight;
+  double max_height;
+  double max_distance;
+
+} satchel_obj;
+
+typedef struct
+{
+  /* data */
+  int x_position;
+  int y_position;
+  int power;
+
+} railgun_obj;
+
+
 void LCD_init(void);
 void game_init(void);
 void loadingScreen(void);
 void read_button1(void);
 void read_button0(void);
+void gameLoss(void);
+void gameWin(void);
+void railGunCalc(float power);
 
 
 #define MAX_STR_LEN             48

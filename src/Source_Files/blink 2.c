@@ -21,12 +21,6 @@
 #include "blink.h"
 #include "glib.h"
 #include "dmd.h"
-#include <stdlib.h>
-#include <math.h>
-
-#define GRAVITY 9.81   // m/s^2
-#define PI 3.14159265358979323846
-#define LAUNCH_ANGLE 45
 
 /*******************************************************************************
  ***************************  LOCAL VARIABLES   ********************************
@@ -45,7 +39,6 @@ static CPU_STK  ButtonTaskStk[TASK_STACK_SIZE];             /*   Stack. */
 
 static GLIB_Context_t glibContext;
 static GLIB_Rectangle_t platform_context;
-static GLIB_Rectangle_t drawSatchel;
 
 // Health Stats
 static GLIB_Rectangle_t castle; // Outline
@@ -57,7 +50,6 @@ static GLIB_Rectangle_t playerHealth;
 static GLIB_Rectangle_t energy;
 static GLIB_Rectangle_t energyTotal;
 
-volatile float capCharge;
 
 platform_obj platform;
 
@@ -69,10 +61,8 @@ bool      shield        = false;
 bool B0_Pressed = false;
 bool B1_Pressed = false;
 bool newGame = true;
-float railGun;
-bool launchCannon = false;
-bool satchelActive = false;
-bool descending = false;
+
+int       active_Satchel = 0;
 
 OS_TMR       PERIODIC_TMR;
 
@@ -83,15 +73,7 @@ OS_SEM       Semaphore;
 OS_MUTEX     VS_Mutex;
 OS_MUTEX     VD_Mutex;
 OS_Q         Button_Q;
-int32_t RxIndexStartPos[16] = {62,120,62,116,50,104,56,107,76,117,73,120,64,116,64,120};
-int32_t RGIndex[16] = {62,120,62,116,50,104,56,107,76,117,73,120,64,116,64,120};
-uint8_t RGPower = 0;
-railgun_obj RGShot;
-uint8_t flag = 0;
-uint8_t launchVelocity = 0;
-satchel_obj satchel;
-int numSatchels = 0;
-
+int32_t RGIndex[16] = {62,120,62,116,50,104,53,107,76,117,73,120,64,116,64,120};
 
 /*******************************************************************************
  *********************   LOCAL FUNCTION PROTOTYPES   ***************************
@@ -99,13 +81,53 @@ int numSatchels = 0;
 static void LCD_task(void *arg);
 static void Platform_Physics_Task();
 static void Button_InputTask (void  *p_arg);
-static void satchel_init(satchel_obj *satchel);
-
-
 
 /*******************************************************************************
  **************************   GLOBAL FUNCTIONS   *******************************
  ******************************************************************************/
+/***************************************************************************//**
+// * @brief Unified GPIO Interrupt handler (pushbuttons)
+// *        PB0 Switches causes a fifo_write upon being pressed
+// *        PB1 Switches causes a fifo_write upon being pressed
+// *        Posts a flag depending on the pushbutton pressed
+// *        posts a semaphore for Vehicle Speed task
+// *****************************************************************************/
+//void GPIO_Unified_IRQ(void)
+//{
+//  /* Get and clear all pending GPIO interrupts */
+//  // CORE_DECLARE_IRQ_STATE;
+//  // CORE_ENTER_ATOMIC();
+//
+//  uint32_t interruptMask = GPIO_IntGet();
+//  GPIO_IntClear(interruptMask);
+//  /* Act on interrupts */
+//  //Checks for interrupt on the push buttons
+//
+//  if ((interruptMask & (1 << BSP_GPIO_PB1_PIN)) && !(interruptMask & (1 << BSP_GPIO_PB0_PIN))){
+//      if(!shield) shield = true;
+//      else shield = false;
+//    // Shield Task
+//  }
+//  if ((interruptMask & (1 << BSP_GPIO_PB0_PIN)) && !(interruptMask & (1 << BSP_GPIO_PB1_PIN))) {
+//   // Fire Railgun
+//
+//  }
+//
+//}
+///***************************************************************************//**
+// * @brief GPIO Interrupt handler for even pins
+// ******************************************************************************/
+//void GPIO_EVEN_IRQHandler(void)
+//{
+//  GPIO_Unified_IRQ();
+//}
+///***************************************************************************//**
+// * @brief GPIO Interrupt handler for odd pins
+// ******************************************************************************/
+//void GPIO_ODD_IRQHandler(void)
+//{
+//  GPIO_Unified_IRQ();
+//}
 
 static void Button_InputTask(void  *p_arg){
     /* Use argument. */
@@ -125,7 +147,6 @@ void read_button0(void){
 void read_button1(void){
   B1_Pressed = !GPIO_PinInGet(BUTTON1_port,BUTTON1_pin);
 }
-
 
 void loadingScreen(void)
 {
@@ -181,86 +202,6 @@ void loadingScreen(void)
   /* Post updates to display */
   DMD_updateDisplay();
 }
-void gameWin(void)
-{
-  uint32_t status;
-  /* Enable the memory lcd */
-  status = sl_board_enable_display();
-  EFM_ASSERT(status == SL_STATUS_OK);
-
-  /* Initialize the DMD support for memory lcd display */
-  status = DMD_init(0);
-  EFM_ASSERT(status == DMD_OK);
-
-  /* Initialize the glib context */
-  status = GLIB_contextInit(&glibContext);
-  EFM_ASSERT(status == GLIB_OK);
-
-  glibContext.backgroundColor = White;
-  glibContext.foregroundColor = Black;
-
-  /* Fill lcd with background color */
-  GLIB_clear(&glibContext);
-
-  /* Use Normal font */
-  GLIB_setFont(&glibContext, (GLIB_Font_t *) &GLIB_FontNormal8x8);
-
-  /* Draw text on the memory lcd display*/
-  GLIB_drawString(&glibContext,
-                        "YOU WIN!",
-                        8,
-                        3,
-                        40,
-                        true);
-
-  /* Post updates to display */
-  DMD_updateDisplay();
-}
-
-void gameLoss(void)
-{
-  uint32_t status;
-  /* Enable the memory lcd */
-  status = sl_board_enable_display();
-  EFM_ASSERT(status == SL_STATUS_OK);
-
-  /* Initialize the DMD support for memory lcd display */
-  status = DMD_init(0);
-  EFM_ASSERT(status == DMD_OK);
-
-  /* Initialize the glib context */
-  status = GLIB_contextInit(&glibContext);
-  EFM_ASSERT(status == GLIB_OK);
-
-  glibContext.backgroundColor = White;
-  glibContext.foregroundColor = Black;
-
-  /* Fill lcd with background color */
-  GLIB_clear(&glibContext);
-
-  /* Use Normal font */
-  GLIB_setFont(&glibContext, (GLIB_Font_t *) &GLIB_FontNormal8x8);
-
-  /* Draw text on the memory lcd display*/
-  GLIB_drawString(&glibContext,
-                        "GAME OVER!",
-                        10,
-                        3,
-                        40,
-                        true);
-
-
-  /* Post updates to display */
-  DMD_updateDisplay();
-}
-
-static void satchel_init(satchel_obj *satchel){
-  satchel->x_position = 14;
-  satchel->y_position= 25;
-  return;
-}
-
-
 
 void LCD_init(void){
   RTOS_ERR err;
@@ -314,15 +255,6 @@ void game_init(void){
   platform_context.yMin = BOTTOMBOUND + 5;
   platform_context.xMax = platform.center + (platform.length * 0.5);
   platform_context.yMax = BOTTOMBOUND;
-
-  // satchel Starting point
-  drawSatchel.xMin = 10;
-  drawSatchel.yMin = 21;
-  drawSatchel.xMax = 14;
-  drawSatchel.yMax = 25;
-
-  // Create Satchel
-  satchel_init(&satchel);
 
   // Create Health Stats Bar
   castle.xMin = 60; // Outline
@@ -386,6 +318,8 @@ void game_init(void){
                 DEF_NULL,                          /* External TCB data.          */
                 OS_OPT_TASK_STK_CLR,               /* Task options.               */
                &err);
+  // Shield Task
+
 }
 
 /***************************************************************************//**
@@ -403,6 +337,9 @@ static void LCD_task(void *arg){
   // Draw Raigun
   uint32_t numPointsRG = 8;
 
+
+
+
     RTOS_ERR err;
 
     while (1)
@@ -417,94 +354,40 @@ static void LCD_task(void *arg){
         newGame = false;
       }
 
+
     if(game_won){
       // Game Won, Wrap up
-        gameWin();
-
     }
     else if(game_loss){
       // Game Lost, you suck
-        gameLoss();
 
     }
     else{
         // Activate Shield
         if(B0_Pressed)
           {
-            if(energyTotal.xMax > energyTotal.xMin)
-            {
             GLIB_drawCircle(&glibContext, platform.center, 124, platform.length);
-            energyTotal.xMax = energyTotal.xMax - 4;
-            }
           }
-        // Draw RailgunShot
-        // Need to check Available Energy
-        if(launchCannon && (energyTotal.xMax >= energyTotal.xMin) && !B0_Pressed)
-          {
-            if(RGShot.power == 1)
-              {
-              energyTotal.xMax = energyTotal.xMax - 20;
-              flag = 1;
-              RGShot.power = 0;
-              }
-            if(RGShot.power == 2)
-              {
-              energyTotal.xMax = energyTotal.xMax - 30;
-              flag = 2;
-              RGShot.power = 0;
-              }
-            if(RGShot.power == 3)
-              {
-              energyTotal.xMax = energyTotal.xMax - 40;
-              flag = 3;
-              RGShot.power = 0;
-              }
+        // Activate Railgun
+        if(B1_Pressed)
+        {
 
-            if(RGShot.x_position > 30 || RGShot.y_position < 65)
-              {
-            GLIB_drawCircleFilled(&glibContext, RGShot.x_position, RGShot.y_position, 4);
-              }
-            RGShot.x_position = RGShot.x_position - 5;
-            RGShot.y_position = RGShot.y_position - 5;
-          }
-
-        // Capacitor Recharge
-        if(energyTotal.xMax < 120 && !B0_Pressed)
-          {
-            energyTotal.xMax = energyTotal.xMax + ((energyTotal.xMax + 1) % 5);
-          }
-//        bound check
-
-        if(energyTotal.xMax > 120)
-          {
-            energyTotal.xMax = 120;
-          }
-
-        // Shot is in Range of Castle
-        if(RGShot.x_position <= 20 && RGShot.y_position <= 70)
-          {
-
-            if(flag == 1)caslteHealth.xMax = caslteHealth.xMax - 10;
-            if(flag == 2)caslteHealth.xMax = caslteHealth.xMax - 15;
-            if(flag == 3)caslteHealth.xMax = caslteHealth.xMax - 20;
-            flag = 0;
-          }
-
+        }
         // Health Stats
         GLIB_drawString(&glibContext, "Castle:", 7, 0,0,1);
 
         // Castle Health Status Bar
-        GLIB_drawRect(&glibContext, &castle);
-        GLIB_drawRectFilled(&glibContext, &caslteHealth);
+        GLIB_drawRectFilled(&glibContext, &castle);
+        GLIB_drawRect(&glibContext, &caslteHealth);
 
         // Player Health Status Bar
         GLIB_drawString(&glibContext, "Player:", 7, 0,10,1);
-        GLIB_drawRect(&glibContext, &player);
-        GLIB_drawRectFilled(&glibContext, &playerHealth);
+        GLIB_drawRectFilled(&glibContext, &player);
+        GLIB_drawRect(&glibContext, &playerHealth);
 
         GLIB_drawString(&glibContext, "E:", 2, 20,20,1);
-        GLIB_drawRect(&glibContext, &energy);
-        GLIB_drawRectFilled(&glibContext, &energyTotal);
+        GLIB_drawRectFilled(&glibContext, &energy);
+        GLIB_drawRect(&glibContext, &energyTotal);
 
 
        // Draw Castle
@@ -513,16 +396,16 @@ static void LCD_task(void *arg){
        // Draw Railgun
        GLIB_drawPolygonFilled(&glibContext,numPointsRG,RGIndex);
 
-       // Draw Satchel
-       if(satchelActive)
-       {
-       GLIB_drawRectFilled(&glibContext, &drawSatchel);
-       }
 
       //Draw Platform
       GLIB_drawRectFilled(&glibContext, &platform_context);
 
       //Map Drawings
+        // Debug
+//      GLIB_drawString(&glibContext, "Plat:", 5, 5,120,1);
+//      GLIB_drawString(&glibContext, plat_speed, 16, 35,120,1);
+//      GLIB_drawLine(&glibContext, 2,0, 2, 128);
+//      GLIB_drawLine(&glibContext, LEFTBOUND,0, LEFTBOUND, 128);
 
       GLIB_drawLine(&glibContext, RIGHTBOUND, 0, RIGHTBOUND, 128);
       GLIB_drawLine(&glibContext, 125, 0, 125, 128);
@@ -532,19 +415,6 @@ static void LCD_task(void *arg){
         DMD_updateDisplay();
     }
 }
-
-
-// Calculates the max height and Distance of the Satchel Obj
-satchel_obj launch_projectile(double angle_deg, double velocity) {
-    satchel_obj satchel;
-    double angle_rad = angle_deg * PI / 180.0;  // convert degrees to radians
-    satchel.time_of_flight = (2 * velocity * sin(angle_rad)) / GRAVITY;
-    satchel.max_height = pow(velocity, 2) * pow(sin(angle_rad), 2) / (2 * GRAVITY);
-    satchel.max_distance = pow(velocity, 2) * sin(2 * angle_rad) / GRAVITY;
-    return satchel;
-}
-
-
 /***************************************************************************//**
  * Platform Physics task.
  ******************************************************************************/
@@ -556,71 +426,6 @@ static void Platform_Physics_Task(){
 
 
     OSTimeDly(REFRESHRATE, OS_OPT_TIME_DLY, &err);
-    if(B1_Pressed)
-      {
-        GPIO_PinOutToggle(LED0_port, LED0_pin);
-        railGun += 1;
-      }
-    if(!B1_Pressed)
-    {
-        GPIO_PinOutClear(LED0_port, LED0_pin);
-        railGunCalc(railGun);
-        if(RGPower != 0)
-          {
-            launchCannon = true;
-            // Set Starting Spot
-            RGShot.x_position = RGIndex[6];
-            RGShot.y_position = 107;
-            RGShot.power = RGPower;
-          }
-        railGun = 0;
-    }
-    // Satchel Launch
-    if(numSatchels < 1)
-      {
-        float xinterval = 0,yinterval = 0;
-        double velocity = (rand() % 41) + 10; // random velocity between 10 and 50m/s
-        satchel = launch_projectile(LAUNCH_ANGLE, velocity);
-        satchel.x_position = 12;
-        satchel.y_position = 25;
-        if(satchel.max_height > 25) satchel.max_height = 25; // Y Upper limit on LCD
-        if(satchel.max_distance > 114) satchel.max_height = 114; // X Upper limit on LCD
-        numSatchels++;
-        satchelActive = true;
-      }
-    if(satchelActive)
-      {
-        if(satchel.x_position < satchel.max_distance) satchel.x_position = satchel.x_position + 2;
-        if(!descending && (satchel.y_position > 25 - satchel.max_height))
-          {
-            satchel.y_position = satchel.y_position - 1;
-
-          }
-        else{
-            // descending arch
-            descending = true;
-            if(satchel.y_position < 40) satchel.y_position = satchel.y_position + 2;
-            if(satchel.y_position >= 40) satchel.y_position = satchel.y_position + 4;
-        }
-
-        if(satchel.y_position >= 128)
-          {
-            // bottom hit, explode
-            GLIB_drawCircle(&glibContext, satchel.x_position, 128, 8);
-            satchelActive = false;
-            numSatchels = 0;
-            descending = false;
-          }
-        drawSatchel.xMin = satchel.x_position - 4;
-        drawSatchel.xMax = satchel.x_position + 4;
-        drawSatchel.yMin = satchel.y_position - 4;
-        drawSatchel.yMax = satchel.y_position + 4;
-      }
-
-    // End Game Condiitons
-    if(playerHealth.xMax <= playerHealth.xMin) game_loss = 1;
-    if(caslteHealth.xMax <= caslteHealth.xMin) game_won = 1;
-
     // create platform bounds
     platform_right = platform.center + (platform.length * 0.5);
     platform_left  = platform.center - (platform.length * 0.5);
@@ -658,44 +463,22 @@ static void Platform_Physics_Task(){
     int8_t offset = 0;
 
     // Check map bounds again
-    offset = platform.center - 64;
-
+    if((platform.center < RIGHTBOUND - (platform.length * 0.5)) && (platform.center > LEFTBOUND + (platform.length * 0.5)))
+    {
+      offset = platform.center - 64;
+    }
     // update railgun mount location
     for(int i = 0; i < 16; i++)
       {
         if(i % 2 == 0 || i == 0)
           {
             // is even index == x valyes
-            RGIndex[i] = RxIndexStartPos[i] + offset;
+            RGIndex[i] = RGIndex[i] + offset;
           }
       }
-
   }
 }
 
-void railGunCalc(float power)
-{
-// Set 3 ranges of power depending on input power
-  if(power == 0) RGPower = 0;
-  if(power > 0 && power < 5)
-    {
-      RGPower = 1;
-    }
-  else if(power > 10 && power < 15)
-    {
-      RGPower = 2;
-    }
-  else if(power > 15)
-      {
-        RGPower = 3;
-      }
-  else RGPower = 0;
-}
-
-
-
-
-
-
-
-
+/***************************************************************************//**
+ * Satchel task.
+ ******************************************************************************/
