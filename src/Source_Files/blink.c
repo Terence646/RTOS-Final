@@ -160,24 +160,23 @@ void loadingScreen(void)
                         40,
                         true);
   GLIB_drawString(&glibContext,
-                          "Crack open the",
-                          15,
-                          3,
-                          60,
-                          true);
-  GLIB_drawString(&glibContext,
-                             "fortress, Free",
+                            "Crack open the",
                             15,
                             3,
-                            80,
+                            60,
                             true);
   GLIB_drawString(&glibContext,
-                  "the prisoners!",
+                               "fortress, Free",
                               15,
                               3,
-                              100,
+                              80,
                               true);
-
+  GLIB_drawString(&glibContext,
+                    "the Prisoners!",
+                                15,
+                                3,
+                                100,
+                                true);
 
   /* Post updates to display */
   DMD_updateDisplay();
@@ -414,7 +413,7 @@ static void LCD_task(void *arg){
     if(newGame)
       {
         loadingScreen();
-        OSTimeDly(1500, OS_OPT_TIME_DLY, &err);
+        OSTimeDly(2000, OS_OPT_TIME_DLY, &err);
         newGame = false;
       }
 
@@ -428,7 +427,7 @@ static void LCD_task(void *arg){
         gameLoss();
 
     }
-    else{
+    else {
         // Activate Shield
         if(B0_Pressed)
           {
@@ -491,12 +490,14 @@ static void LCD_task(void *arg){
             flag = 0;
           }
         // Castle Damage Attack
-        if(!shield && (satchel.y_position >= 115) && satchelActive)
+        if(!B0_Pressed && (satchel.y_position >= 115) && satchelActive)
           {
             // satchel on the right of platform in range
             if(drawSatchel.xMax >= platform_context.xMax && drawSatchel.xMin <= platform_context.xMax)
               {
                 playerHealth.xMax = playerHealth.xMax - 30;
+                GLIB_drawCircle(&glibContext, satchel.x_position, 115, 12);
+                OSTimeDly(150, OS_OPT_TIME_DLY, &err);
                 satchelActive = false;
                 numSatchels = 0;
                 descending = false;
@@ -505,6 +506,8 @@ static void LCD_task(void *arg){
             if(drawSatchel.xMin <= platform_context.xMin && drawSatchel.xMax >= platform_context.xMin)
             {
               playerHealth.xMax = playerHealth.xMax - 30;
+              GLIB_drawCircle(&glibContext, satchel.x_position, 115, 12);
+              OSTimeDly(150, OS_OPT_TIME_DLY, &err);
               satchelActive = false;
               numSatchels = 0;
               descending = false;
@@ -678,6 +681,10 @@ static void Platform_Physics_Task(){
     if(left_sense_soft) platform.x_velocity = (platform.x_velocity - 1) % 20;
     if(right_sense_hard) platform.x_velocity = (platform.x_velocity + 2) % 20;
     if(right_sense_soft) platform.x_velocity = (platform.x_velocity + 1) % 20;
+    if(platform.x_velocity < -15 && platform_left >=  LEFTBOUND)
+      {
+        game_loss = true;
+      }
 
     platform.center += platform.x_velocity;
 
