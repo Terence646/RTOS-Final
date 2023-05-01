@@ -91,6 +91,7 @@ uint8_t flag = 0;
 uint8_t launchVelocity = 0;
 satchel_obj satchel;
 int numSatchels = 0;
+bool bounce = false;
 
 
 /*******************************************************************************
@@ -489,6 +490,27 @@ static void LCD_task(void *arg){
             if(flag == 3)caslteHealth.xMax = caslteHealth.xMax - 20;
             flag = 0;
           }
+        // Castle Damage Attack
+        if(!shield && (satchel.y_position >= 115) && satchelActive)
+          {
+            // satchel on the right of platform in range
+            if(drawSatchel.xMax >= platform_context.xMax && drawSatchel.xMin <= platform_context.xMax)
+              {
+                playerHealth.xMax = playerHealth.xMax - 30;
+                satchelActive = false;
+                numSatchels = 0;
+                descending = false;
+                bounce = false;
+              }
+            if(drawSatchel.xMin <= platform_context.xMin && drawSatchel.xMax >= platform_context.xMin)
+            {
+              playerHealth.xMax = playerHealth.xMax - 30;
+              satchelActive = false;
+              numSatchels = 0;
+              descending = false;
+              bounce = false;
+            }
+          }
 
         // Health Stats
         GLIB_drawString(&glibContext, "Castle:", 7, 0,0,1);
@@ -512,6 +534,11 @@ static void LCD_task(void *arg){
 
        // Draw Railgun
        GLIB_drawPolygonFilled(&glibContext,numPointsRG,RGIndex);
+
+       // Blink Castle Health
+       if(caslteHealth.xMax <= 90) GPIO_PinOutToggle(LED1_port, LED1_pin);
+       else GPIO_PinOutClear(LED1_port, LED1_pin);
+
 
        // Draw Satchel
        if(satchelActive)
@@ -579,7 +606,7 @@ static void Platform_Physics_Task(){
     if(numSatchels < 1)
       {
         float xinterval = 0,yinterval = 0;
-        double velocity = (rand() % 41) + 10; // random velocity between 10 and 50m/s
+        double velocity = (rand() % 11) + 20; // random velocity between 10 and 50m/s
         satchel = launch_projectile(LAUNCH_ANGLE, velocity);
         satchel.x_position = 12;
         satchel.y_position = 25;
@@ -590,31 +617,42 @@ static void Platform_Physics_Task(){
       }
     if(satchelActive)
       {
-        if(satchel.x_position < satchel.max_distance) satchel.x_position = satchel.x_position + 2;
+        if((satchel.x_position < satchel.max_distance) && !bounce) satchel.x_position = satchel.x_position + 3;
+        else if((satchel.x_position < satchel.max_distance) && !bounce)
+          {
+          satchel.x_position = satchel.x_position + 1;
+          }
+        if(satchel.x_position >= 128)
+          {
+            bounce = true;
+          }
+        if(bounce) satchel.x_position = satchel.x_position - 3;
+
         if(!descending && (satchel.y_position > 25 - satchel.max_height))
           {
-            satchel.y_position = satchel.y_position - 1;
+            satchel.y_position = satchel.y_position - 2;
 
           }
         else{
             // descending arch
             descending = true;
-            if(satchel.y_position < 40) satchel.y_position = satchel.y_position + 2;
-            if(satchel.y_position >= 40) satchel.y_position = satchel.y_position + 4;
+            if(satchel.y_position < 40) satchel.y_position = satchel.y_position + 4;
+            if(satchel.y_position >= 40) satchel.y_position = satchel.y_position + 6;
         }
-
-        if(satchel.y_position >= 128)
+        // Hit Bottom
+        if(satchel.y_position >= 124)
           {
             // bottom hit, explode
-            GLIB_drawCircle(&glibContext, satchel.x_position, 128, 8);
+            RTOS_ERR error;
             satchelActive = false;
             numSatchels = 0;
             descending = false;
+            bounce = false;
           }
-        drawSatchel.xMin = satchel.x_position - 4;
-        drawSatchel.xMax = satchel.x_position + 4;
-        drawSatchel.yMin = satchel.y_position - 4;
-        drawSatchel.yMax = satchel.y_position + 4;
+        drawSatchel.xMin = satchel.x_position - 6;
+        drawSatchel.xMax = satchel.x_position + 6;
+        drawSatchel.yMin = satchel.y_position - 6;
+        drawSatchel.yMax = satchel.y_position + 6;
       }
 
     // End Game Condiitons
